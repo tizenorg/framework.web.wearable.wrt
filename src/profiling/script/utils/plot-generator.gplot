@@ -1,0 +1,33 @@
+#cold_file="OUTPUT/1002_WAC_Test/cold/outpucik-points"
+#warm_file="OUTPUT/1002_WAC_Test/warm/outpucik-points"
+#preload_file="OUTPUT/1002_WAC_Test/preload/outpucik-points"
+#output_file="Some.svg"
+#plot_title="some title"
+#width
+#height
+#font_size
+#tics
+#difffile
+set terminal svg size width height dynamic fsize font_size
+set object 1 rect from screen 0, 0, 0 to screen 1, 1, 0 behind
+set object 1 rect fc  rgb "white"  fillstyle solid 1.0
+set output output_file
+set size 1.0,1.0
+set title plot_title
+set style fill solid
+set grid
+set datafile separator ","
+set style line 1
+set key top left
+set ytics 0,100000,maxtics
+set y2tics 0,100000,maxtics
+set ylabel "time [us]"
+set y2label "time [us]"
+set format y "%2.1e"
+set format y2 "%2.1e"
+set xlabel "Execution points of WRT during launching"
+set xtics border in nomirror rotate by -45  offset character 0, 0, 0
+plot warm_file  u 2:xtic(1) with lines title "        Warm", \
+     cold_file  u 2 with lines title         "        Cold", \
+     preload_file  u 2 with lines title      "        Preload", \
+     difffile   u ($3-$6) with fsteps title   "        Diff"

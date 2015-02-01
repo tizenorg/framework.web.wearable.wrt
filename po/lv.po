@@ -1,0 +1,63 @@
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_USE_YOUR_CAMERA"
+msgstr "%1$s (%2$s) pieprasa atļauju izmantot jūsu kameru."
+
+msgid "IDS_BR_SK_OK"
+msgstr "Labi"
+
+msgid "IDS_BR_SK_YES"
+msgstr "Jā"
+
+msgid "IDS_BR_SK_NO"
+msgstr "Nē"
+
+msgid "IDS_BR_BODY_LOGIN"
+msgstr "Pieteikšanās"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "Atcelt"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "Atļaut"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_SHOW_NOTIFICATIONS"
+msgstr "%1$s (%2$s) pieprasa atļauju rādīt paziņojumus."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_LOCATION"
+msgstr "%1$s (%2$s) pieprasa atļauju piekļūt jūsu atrašanās vietai."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_ATTEMPTING_TO_STORE_A_LARGE_AMOUNT_OF_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) mēģina jūsu ierīcē saglabāt lielu datu apjomu lietošanai bezsaistē."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_STORE_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) pieprasa atļauju jūsu ierīcē saglabāt datus lietošanai bezsaistē."
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "Sāk lejupielādi..."
+
+msgid "IDS_BR_BODY_SECURITY_CERTIFICATE_PROBLEM_MSG"
+msgstr "Šai vietnei ir radušās problēmas ar drošības sertifikātu."
+
+msgid "IDS_BR_BODY_DESTINATIONS_AUTHENTICATION_REQUIRED"
+msgstr "Nepieciešama autentifikācija."
+
+msgid "IDS_BR_BODY_PASSWORD"
+msgstr "Parole"
+
+msgid "IDS_BR_BODY_AUTHUSERNAME"
+msgstr "Lietotājvārds"
+
+msgid "IDS_BR_BODY_REMEMBER_PREFERENCE"
+msgstr "Atcerēties preferenci."
+
+msgid "IDS_ST_POP_CLEAR_DEFAULT_APP_SETTINGS_BY_GOING_TO_SETTINGS_GENERAL_MANAGE_APPLICATIONS_ALL"
+msgstr "Lai notīrītu noklusējuma programmu iestatījumus, izvēlieties Iestatījumi > Vispārīgi > Pārvaldīt programmas > Visas."
+
+msgid "IDS_BR_BODY_LOADING_ING"
+msgstr "Ielādē..."
+
+msgid "IDS_KA_BODY_DENY"
+msgstr "Atteikt"
+
+msgid "IDS_JAVA_POP_ALLOW_TO_USE_MEDIA_RECORDING_Q"
+msgstr "Vai atļaut lietot multivides ierakstīšanu?"
+

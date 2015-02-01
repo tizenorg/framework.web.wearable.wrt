@@ -1,0 +1,63 @@
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_USE_YOUR_CAMERA"
+msgstr "%1$s (%2$s) engedélyt kér a fényképező használatára."
+
+msgid "IDS_BR_SK_OK"
+msgstr "OK"
+
+msgid "IDS_BR_SK_YES"
+msgstr "Igen"
+
+msgid "IDS_BR_SK_NO"
+msgstr "Nem"
+
+msgid "IDS_BR_BODY_LOGIN"
+msgstr "Bejelentkezés"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "Mégse"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "Engedélyezés"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_SHOW_NOTIFICATIONS"
+msgstr "%1$s (%2$s) engedélyt kér értesítések megjelenítésére."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_LOCATION"
+msgstr "%1$s (%2$s) engedélyt kér az Ön helyadataihoz való hozzáféréshez."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_ATTEMPTING_TO_STORE_A_LARGE_AMOUNT_OF_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) nagymennyiségű adatot próbál az eszközön tárolni offline használatra."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_STORE_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) engedélyt kér nagymennyiségű adat tárolására az eszközön offline használatra."
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "Letöltés indítása..."
+
+msgid "IDS_BR_BODY_SECURITY_CERTIFICATE_PROBLEM_MSG"
+msgstr "Probléma merült fel a webhely biztonsági tanúsítványával kapcsolatban."
+
+msgid "IDS_BR_BODY_DESTINATIONS_AUTHENTICATION_REQUIRED"
+msgstr "Hitelesítés szükséges."
+
+msgid "IDS_BR_BODY_PASSWORD"
+msgstr "Jelszó"
+
+msgid "IDS_BR_BODY_AUTHUSERNAME"
+msgstr "Felhasználónév"
+
+msgid "IDS_BR_BODY_REMEMBER_PREFERENCE"
+msgstr "Beállítások megjegyzése"
+
+msgid "IDS_ST_POP_CLEAR_DEFAULT_APP_SETTINGS_BY_GOING_TO_SETTINGS_GENERAL_MANAGE_APPLICATIONS_ALL"
+msgstr "A Beállítások > Általános > Alkalmazások kezelése > Összes pontban törölheti az alapértelmezett alkalmazásbeállításokat."
+
+msgid "IDS_BR_BODY_LOADING_ING"
+msgstr "Betöltés..."
+
+msgid "IDS_KA_BODY_DENY"
+msgstr "Elutasítás"
+
+msgid "IDS_JAVA_POP_ALLOW_TO_USE_MEDIA_RECORDING_Q"
+msgstr "Engedélyezi a médiarögzítést?"
+

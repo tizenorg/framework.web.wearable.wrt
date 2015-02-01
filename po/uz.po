@@ -1,0 +1,63 @@
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_USE_YOUR_CAMERA"
+msgstr "%1$s (%2$s) kamerangizdan foydalanish uchun ruxsat so‘ramoqda."
+
+msgid "IDS_BR_SK_OK"
+msgstr "OK"
+
+msgid "IDS_BR_SK_YES"
+msgstr "Ha"
+
+msgid "IDS_BR_SK_NO"
+msgstr "Yo‘q"
+
+msgid "IDS_BR_BODY_LOGIN"
+msgstr "Kirish"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "Bekor qilish"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "Ruxsat"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_SHOW_NOTIFICATIONS"
+msgstr "%1$s (%2$s) bildirishnomalarni ko‘rsatish uchun ruxsat so‘ramoqda."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_LOCATION"
+msgstr "%1$s (%2$s) joylashuvingizga kirish uchun ruxsat so‘ramoqda."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_ATTEMPTING_TO_STORE_A_LARGE_AMOUNT_OF_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) qurilmangizga offlayn foydalanish uchun katta hajmdagi ma’lumotni saqlashga urinmoqda."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_STORE_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) qurilmangizga offlayn foydalanish uchun ma’lumotni saqlashga ruxsat so‘ramoqda."
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "Yuklab olish boshlanmoqda..."
+
+msgid "IDS_BR_BODY_SECURITY_CERTIFICATE_PROBLEM_MSG"
+msgstr "Ushbu sayt sertifikati bilan bog‘liq muammolar mavjud."
+
+msgid "IDS_BR_BODY_DESTINATIONS_AUTHENTICATION_REQUIRED"
+msgstr "Haqiqiylik tekshiruvi talab qilinadi."
+
+msgid "IDS_BR_BODY_PASSWORD"
+msgstr "Parol"
+
+msgid "IDS_BR_BODY_AUTHUSERNAME"
+msgstr "Foydalanuvchi nomi"
+
+msgid "IDS_BR_BODY_REMEMBER_PREFERENCE"
+msgstr "Eslab qolish afzalligi."
+
+msgid "IDS_ST_POP_CLEAR_DEFAULT_APP_SETTINGS_BY_GOING_TO_SETTINGS_GENERAL_MANAGE_APPLICATIONS_ALL"
+msgstr "Parametrlar > Umumiy > Ilovalarni boshqarish > Barchasiga o‘tish orqali birlamchi ilova parametrlarini tozalang."
+
+msgid "IDS_BR_BODY_LOADING_ING"
+msgstr "Yuklanmoqda..."
+
+msgid "IDS_KA_BODY_DENY"
+msgstr "Rad etish"
+
+msgid "IDS_JAVA_POP_ALLOW_TO_USE_MEDIA_RECORDING_Q"
+msgstr "Mediani yozib olishdan foydalanish uchun ruxsat berilsinmi?"
+

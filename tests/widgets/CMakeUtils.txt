@@ -1,0 +1,182 @@
+# @file        CMakeUtils.txt
+# @author      Zbigniew Kostrzewa (z.kostrzewa@samsung.com)
+# @author      Pawel Sikorski (p.sikorski@samsung.com)
+# @author      Krzysztof Jackiewicz (k.jackiewicz@samsung.com)
+# @version     1.0
+# @brief
+#
+
+#
+# Discovers target's INCLUDE_DIRECTORIES and LINK_DIRECTORIES.
+# This is done by retrieving the directory target was built in and
+# fetching appropriate properties of that directory.
+FUNCTION(WRT_INTROSPECT_TARGET PREFIX TARGET_NAME)
+  GET_TARGET_PROPERTY(LOCATION ${TARGET_NAME} LOCATION)
+  IF(${LOCATION} STREQUAL "LOCATION-NOTFOUND")
+    MESSAGE(FATAL_ERROR "Target '${TARGET_NAME}' introspection failed")
+  ELSE(${LOCATION} STREQUAL "LOCATION-NOTFOUND")
+    STRING(FIND ${LOCATION} "/" LAST_SLASH_POSITION REVERSE)
+    STRING(SUBSTRING ${LOCATION} 0 ${LAST_SLASH_POSITION} LOCATION)
+
+    GET_DIRECTORY_PROPERTY(INCLUDE_DIRS DIRECTORY ${LOCATION} INCLUDE_DIRECTORIES)
+    SET("${PREFIX}_INCLUDE_DIRS" ${INCLUDE_DIRS} PARENT_SCOPE)
+
+    GET_DIRECTORY_PROPERTY(LIBRARY_DIRS DIRECTORY ${LOCATION} LINK_DIRECTORIES)
+    SET("${PREFIX}_LIBRARY_DIRS" ${LIBRARY_DIRS} PARENT_SCOPE)
+  ENDIF(${LOCATION} STREQUAL "LOCATION-NOTFOUND")
+ENDFUNCTION(WRT_INTROSPECT_TARGET)
+
+FUNCTION(WRT_TEST_LIBRARY)
+  SET_PROPERTY(GLOBAL APPEND PROPERTY COMMON_TESTS_LIBRARY ${ARGV})
+ENDFUNCTION(WRT_TEST_LIBRARY)
+
+#
+# Replacement functions for standard (w/o "WRT_" prefix) CMake functions.
+# They store supplied arguments in global properties to assign them to tests.
+# Anything added with this functions is used by all targets that are built with
+# WRT_TEST_BUILD function.
+
+#
+# Appends directories to global property TESTS_INCLUDE_DIRS which is
+# then read by WRT_TEST_BUILD and its content is forwarded to
+# command INCLUDE_DIRECTORIES() (for all targets).
+FUNCTION(WRT_INCLUDE_DIRECTORIES)
+  SET_PROPERTY(GLOBAL APPEND PROPERTY TESTS_INCLUDE_DIRS ${ARGV})
+ENDFUNCTION(WRT_INCLUDE_DIRECTORIES)
+
+#
+# Appends directories to global property TESTS_LIBRARY_DIRS which is
+# then read by WRT_TEST_BUILD and its content is forwarded to
+# command LINK_DIRECTORIES() (for all targets).
+FUNCTION(WRT_LINK_DIRECTORIES)
+  SET_PROPERTY(GLOBAL APPEND PROPERTY TESTS_LIBRARY_DIRS ${ARGV})
+ENDFUNCTION(WRT_LINK_DIRECTORIES)
+
+#
+# Appends directories to global property TESTS_LIBRARIES which is
+# then read by WRT_TEST_BUILD and its content is forwarded to
+# command TARGET_LINK_LIBRARIES() (for all targets).
+FUNCTION(WRT_TARGET_LINK_LIBRARIES)
+  SET_PROPERTY(GLOBAL APPEND PROPERTY TESTS_LIBRARIES ${ARGV})
+ENDFUNCTION(WRT_TARGET_LINK_LIBRARIES)
+
+#
+# Convenience method that fills TESTS_INCLUDE_DIRS, TESTS_LIBRARY_DIRS
+# and TESTS_LIBRARIES with values discovered from introspecting supplied
+# targets.
+# Function takes arbitrary number of targets.
+FUNCTION(WRT_ADD_INTERNAL_DEPENDENCIES)
+  FOREACH(DEPENDENCY ${ARGV})
+    WRT_INTROSPECT_TARGET(prefix ${DEPENDENCY})
+    WRT_INCLUDE_DIRECTORIES(${prefix_INCLUDE_DIRS})
+    WRT_LINK_DIRECTORIES(${prefix_LIBRARY_DIRS})
+    WRT_TARGET_LINK_LIBRARIES(${DEPENDENCY})
+  ENDFOREACH(DEPENDENCY)
+ENDFUNCTION(WRT_ADD_INTERNAL_DEPENDENCIES)
+
+
+#
+# Replacement functions for standard (w/o "WRT_" prefix) CMake functions.
+# They store supplied arguments in global properties to assign them to specific
+# tests. Properties names are based on the test target name.
+# Anything added with this functions is used only by the specified target that
+# is built with WRT_TEST_BUILD function.
+
+#
+# Appends directories to global property ${TARGET_NAME}_INCLUDE_DIRS
+# which is then read by WRT_TEST_BUILD and its content is forwarded to
+# command INCLUDE_DIRECTORIES() (for specified target).
+FUNCTION(WRT_TEST_INCLUDE_DIRECTORIES TARGET_NAME)
+  SET_PROPERTY(GLOBAL APPEND PROPERTY ${TARGET_NAME}_INCLUDE_DIRS ${ARGN})
+ENDFUNCTION(WRT_TEST_INCLUDE_DIRECTORIES)
+
+#
+# Appends directories to global property ${TARGET_NAME}_LIBRARY_DIRS
+# which is then read by WRT_TEST_BUILD and its content is forwarded to
+# command LINK_DIRECTORIES() (for specified target).
+FUNCTION(WRT_TEST_LINK_DIRECTORIES TARGET_NAME)
+  SET_PROPERTY(GLOBAL APPEND PROPERTY ${TARGET_NAME}_LIBRARY_DIRS ${ARGN})
+ENDFUNCTION(WRT_TEST_LINK_DIRECTORIES)
+
+#
+# Appends directories to global property ${TARGET_NAME}_LIBRARIES
+# which is then read by WRT_TEST_BUILD and its content is forwarded to
+# command TARGET_LINK_LIBRARIES() (for specified target).
+FUNCTION(WRT_TEST_TARGET_LINK_LIBRARIES TARGET_NAME)
+  SET_PROPERTY(GLOBAL APPEND PROPERTY ${TARGET_NAME}_LIBRARIES ${ARGN})
+ENDFUNCTION(WRT_TEST_TARGET_LINK_LIBRARIES)
+
+#
+# Convenience method that fills ${TARGET_NAME}_INCLUDE_DIRS,
+# ${TARGET_NAME}_LIBRARY_DIRS and ${TARGET_NAME}_LIBRARIES with
+# values discovered from introspecting supplied targets.
+# Function takes arbitrary number of targets.
+FUNCTION(WRT_TEST_ADD_INTERNAL_DEPENDENCIES TARGET_NAME)
+  FOREACH(DEPENDENCY ${ARGN})
+    WRT_INTROSPECT_TARGET(prefix ${DEPENDENCY})
+    WRT_TEST_INCLUDE_DIRECTORIES(${TARGET_NAME} ${prefix_INCLUDE_DIRS})
+    WRT_TEST_LINK_DIRECTORIES(${TARGET_NAME} ${prefix_LIBRARY_DIRS})
+    WRT_TEST_TARGET_LINK_LIBRARIES(${TARGET_NAME} ${DEPENDENCY})
+  ENDFOREACH(DEPENDENCY)
+ENDFUNCTION(WRT_TEST_ADD_INTERNAL_DEPENDENCIES)
+
+# Functions used to build test targets (proper sources, includes, libs are
+# added automatically)
+FUNCTION(WRT_TEST_BUILD TARGET_NAME)
+    SET(SOURCES "${ARGN}")
+    ADD_EXECUTABLE("${TARGET_NAME}" ${SOURCES})
+
+    # get include dirs global property
+    GET_PROPERTY(INCLUDE_DIRS GLOBAL PROPERTY TESTS_INCLUDE_DIRS)
+    GET_PROPERTY(TEST_INCLUDE_DIRS GLOBAL PROPERTY ${TARGET_NAME}_INCLUDE_DIRS)
+    INCLUDE_DIRECTORIES(
+        ${INCLUDE_DIRS}
+        ${TEST_INCLUDE_DIRS}
+    )
+
+    # get library dirs global property
+    GET_PROPERTY(LIBRARY_DIRS GLOBAL PROPERTY TESTS_LIBRARY_DIRS)
+    GET_PROPERTY(TEST_LIBRARY_DIRS GLOBAL PROPERTY ${TARGET_NAME}_LIBRARY_DIRS)
+    LINK_DIRECTORIES(
+        ${LIBRARY_DIRS}
+        ${TEST_LIBRARY_DIRS}
+    )
+
+    # get link libraries global property
+    GET_PROPERTY(LINK_LIBRARIES GLOBAL PROPERTY TESTS_LIBRARIES)
+    GET_PROPERTY(TEST_LIBRARIES GLOBAL PROPERTY ${TARGET_NAME}_LIBRARIES)
+    TARGET_LINK_LIBRARIES("${TARGET_NAME}"
+        ${LINK_LIBRARIES}
+        ${TEST_LIBRARIES}
+    )
+ENDFUNCTION(WRT_TEST_BUILD)
+
+FUNCTION(WRT_TEST_INSTALL)
+    SET_TARGET_PROPERTIES(${ARGV} PROPERTIES
+        BUILD_WITH_INSTALL_RPATH ON
+        INSTALL_RPATH_USE_LINK_PATH ON
+    )
+    INSTALL(TARGETS ${ARGV}
+        DESTINATION bin
+        PERMISSIONS OWNER_READ
+                    OWNER_WRITE
+                    OWNER_EXECUTE
+                    GROUP_READ
+                    GROUP_EXECUTE
+                    WORLD_READ
+                    WORLD_EXECUTE
+    )
+ENDFUNCTION(WRT_TEST_INSTALL)
+
+# Takes arbitrary number of arguments and concatenates them using ':' character.
+# Rationale:
+#   CMake list when converted to a string is joined with ';' character. However,
+#   GCC takes strings with multiple elements separated with ':' (e.g. list of
+#   paths). Used typically when generating DB schemas with ORM mechanism.
+FUNCTION(WRT_CONVERT_TO_GCC_LIST OUTPUT_VARIABLE)
+    FOREACH(ITEM ${ARGN})
+        LIST(APPEND ITEMS ${ITEM})
+    ENDFOREACH(ITEM)
+    STRING(REPLACE ";" ":" OUTPUT "${ITEMS}")
+    SET("${OUTPUT_VARIABLE}" "${OUTPUT}" PARENT_SCOPE)
+ENDFUNCTION(WRT_CONVERT_TO_GCC_LIST)

@@ -1,0 +1,11 @@
+Build-arm
+Build-i586
+
+# FIXME: It should be considered to moving into build directory.
+data/Wrt.edj
+data/generic_popup.edj
+data/generic_popup_horizontal.edj
+debugfiles.list
+debuglinks.list
+debugsources.list
+pkgconfig/wrt-core.pc

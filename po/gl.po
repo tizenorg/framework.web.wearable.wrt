@@ -1,0 +1,63 @@
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_USE_YOUR_CAMERA"
+msgstr "%1$s (%2$s) está solicitando permiso para usar a túa cámara"
+
+msgid "IDS_BR_SK_OK"
+msgstr "Aceptar"
+
+msgid "IDS_BR_SK_YES"
+msgstr "Si"
+
+msgid "IDS_BR_SK_NO"
+msgstr "Non"
+
+msgid "IDS_BR_BODY_LOGIN"
+msgstr "Conectar"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "Cancelar"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "Permitir"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_SHOW_NOTIFICATIONS"
+msgstr "%1$s (%2$s) está solicitando permiso para amosar notificacións"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_LOCATION"
+msgstr "%1$s (%2$s) está solicitando permiso para ter acceso á túa situación"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_ATTEMPTING_TO_STORE_A_LARGE_AMOUNT_OF_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) está tentando almacenar unha grande cantidade de datos no teu dispositivo para utilizalos fóra de liña"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_STORE_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) está solicitando permiso para almacenar datos no teu dispositivo para utilizalos fóra de liña"
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "Iniciando descarga..."
+
+msgid "IDS_BR_BODY_SECURITY_CERTIFICATE_PROBLEM_MSG"
+msgstr "Existen problemas co certificado de seguridade deste sitio"
+
+msgid "IDS_BR_BODY_DESTINATIONS_AUTHENTICATION_REQUIRED"
+msgstr "Autenticación requirida"
+
+msgid "IDS_BR_BODY_PASSWORD"
+msgstr "Contrasinal"
+
+msgid "IDS_BR_BODY_AUTHUSERNAME"
+msgstr "Nome de usuario"
+
+msgid "IDS_BR_BODY_REMEMBER_PREFERENCE"
+msgstr "Lembrar preferencia"
+
+msgid "IDS_ST_POP_CLEAR_DEFAULT_APP_SETTINGS_BY_GOING_TO_SETTINGS_GENERAL_MANAGE_APPLICATIONS_ALL"
+msgstr "Borra os axustes predeterminados das aplicacións en Axustes > Xeral > Xestionar aplicacións > Todo"
+
+msgid "IDS_BR_BODY_LOADING_ING"
+msgstr "Cargando..."
+
+msgid "IDS_KA_BODY_DENY"
+msgstr "Denegar"
+
+msgid "IDS_JAVA_POP_ALLOW_TO_USE_MEDIA_RECORDING_Q"
+msgstr "Permitir usar a gravación multimedia?"
+

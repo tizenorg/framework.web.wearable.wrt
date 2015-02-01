@@ -1,0 +1,7 @@
+wrt_launchpad_daemon system::share rwx--- ------
+wrt_launchpad_daemon system::homedir rwx--- ------
+wrt_launchpad_daemon device::app_logging -w---- ------
+wrt_launchpad_daemon xorg rw---- ------
+wrt_launchpad_daemon webkit2-efl rwxa-- ------
+wrt_launchpad_daemon sys-assert::core rwxat- ------
+wrt_launchpad_daemon aul::launch --x--- ------

@@ -1,0 +1,12 @@
+prefix=/usr
+project_name=@CMAKE_PROJECT_NAME@
+exec_prefix=${prefix}
+libdir=${prefix}/lib/
+includedir=${prefix}/include/${project_name}
+
+Name: WebRuntime wrt core module
+Description: WebRuntime core module
+Version: @CMAKE_PROJECT_VERSION@
+Requires:
+Libs: -L${libdir} -lwrt-core-module
+Cflags: -I${includedir}

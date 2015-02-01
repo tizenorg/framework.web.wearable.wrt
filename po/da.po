@@ -1,0 +1,63 @@
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_USE_YOUR_CAMERA"
+msgstr "%1$s (%2$s) anmoder om tilladelse til at bruge dit kamera."
+
+msgid "IDS_BR_SK_OK"
+msgstr "OK"
+
+msgid "IDS_BR_SK_YES"
+msgstr "Ja"
+
+msgid "IDS_BR_SK_NO"
+msgstr "Nej"
+
+msgid "IDS_BR_BODY_LOGIN"
+msgstr "Log på"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "Annullér"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "Tillad"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_SHOW_NOTIFICATIONS"
+msgstr "%1$s (%2$s) anmoder om tilladelse til at vise meddelelser."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_LOCATION"
+msgstr "%1$s (%2$s) anmoder om tilladelse til at få adgang til din placering."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_ATTEMPTING_TO_STORE_A_LARGE_AMOUNT_OF_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) forsøger at gemme en stor mængde data på din enhed til offline-brug."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_STORE_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) anmoder om tilladelse til at gemme en stor mængde data på din enhed til offline-brug."
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "Starter download..."
+
+msgid "IDS_BR_BODY_SECURITY_CERTIFICATE_PROBLEM_MSG"
+msgstr "Der er problemer med sikkerhedscertifikatet for dette websted."
+
+msgid "IDS_BR_BODY_DESTINATIONS_AUTHENTICATION_REQUIRED"
+msgstr "Godkendelse påkrævet."
+
+msgid "IDS_BR_BODY_PASSWORD"
+msgstr "Adgangskode"
+
+msgid "IDS_BR_BODY_AUTHUSERNAME"
+msgstr "Brugernavn"
+
+msgid "IDS_BR_BODY_REMEMBER_PREFERENCE"
+msgstr "Husk præference."
+
+msgid "IDS_ST_POP_CLEAR_DEFAULT_APP_SETTINGS_BY_GOING_TO_SETTINGS_GENERAL_MANAGE_APPLICATIONS_ALL"
+msgstr "Ryd standardindstillinger for program ved at gå til Indstillinger > Generelt > Administrér programmer > Alle."
+
+msgid "IDS_BR_BODY_LOADING_ING"
+msgstr "Indlæser data ..."
+
+msgid "IDS_KA_BODY_DENY"
+msgstr "Afvis"
+
+msgid "IDS_JAVA_POP_ALLOW_TO_USE_MEDIA_RECORDING_Q"
+msgstr "Vil du tillade brug af medieoptagelse?"
+

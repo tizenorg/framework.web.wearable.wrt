@@ -1,0 +1,63 @@
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_USE_YOUR_CAMERA"
+msgstr "%1$s (%2$s) đang yêu cầu quyền sử dụng máy ảnh của bạn."
+
+msgid "IDS_BR_SK_OK"
+msgstr "OK"
+
+msgid "IDS_BR_SK_YES"
+msgstr "OK"
+
+msgid "IDS_BR_SK_NO"
+msgstr "Không"
+
+msgid "IDS_BR_BODY_LOGIN"
+msgstr "Đăng nhập"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "Hủy"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "Cho phép"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_SHOW_NOTIFICATIONS"
+msgstr "%1$s (%2$s) đang yêu cầu quyền hiển thị thông báo."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_LOCATION"
+msgstr "%1$s (%2$s) đang yêu cầu quyền truy cập vị trí của bạn."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_ATTEMPTING_TO_STORE_A_LARGE_AMOUNT_OF_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) đang cố gắng lưu trữ một lượng lớn dữ liệu vào thiết bị để sử dụng offline."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_STORE_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) đang yêu cầu lưu trữ dữ liệu trên thiết bị của bạn để dùng offline."
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "Đang bắt đầu tải về..."
+
+msgid "IDS_BR_BODY_SECURITY_CERTIFICATE_PROBLEM_MSG"
+msgstr "Có vấn đề về chứng chỉ bảo mật cho site này."
+
+msgid "IDS_BR_BODY_DESTINATIONS_AUTHENTICATION_REQUIRED"
+msgstr "Yêu cầu xác thực."
+
+msgid "IDS_BR_BODY_PASSWORD"
+msgstr "Mật mã"
+
+msgid "IDS_BR_BODY_AUTHUSERNAME"
+msgstr "Tên người dùng"
+
+msgid "IDS_BR_BODY_REMEMBER_PREFERENCE"
+msgstr "Nhớ Cài đặt sở thích."
+
+msgid "IDS_ST_POP_CLEAR_DEFAULT_APP_SETTINGS_BY_GOING_TO_SETTINGS_GENERAL_MANAGE_APPLICATIONS_ALL"
+msgstr "Xóa cài đặt ứng dụng mặc định bằng cách vào Cài đặt > Cài đặt chung > Quản lý ứng dụng > Tất cả."
+
+msgid "IDS_BR_BODY_LOADING_ING"
+msgstr "Đang tải…"
+
+msgid "IDS_KA_BODY_DENY"
+msgstr "Từ chối"
+
+msgid "IDS_JAVA_POP_ALLOW_TO_USE_MEDIA_RECORDING_Q"
+msgstr "Cho phép sử dụng ghi media?"
+

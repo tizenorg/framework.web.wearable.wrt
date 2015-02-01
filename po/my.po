@@ -1,0 +1,63 @@
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_USE_YOUR_CAMERA"
+msgstr "သင့္ ကင္မရာသံုးရန္ %1$s (%2$s) က အခြင့္ေတာင္းခံေနသည္။"
+
+msgid "IDS_BR_SK_OK"
+msgstr "အုိေက"
+
+msgid "IDS_BR_SK_YES"
+msgstr "ဟုတ္ကဲ့"
+
+msgid "IDS_BR_SK_NO"
+msgstr "မဟုတ္"
+
+msgid "IDS_BR_BODY_LOGIN"
+msgstr "ေလာ့အင္"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "ပယ္ဖ်က္"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "ခြင့္ျပဳပါ"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_SHOW_NOTIFICATIONS"
+msgstr "အသိေပးခ်က္မ်ား ျပရန္ %1$s (%2$s) က အခြင့္ေတာင္းခံေနသည္။"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_LOCATION"
+msgstr "သင့္တည္ေနရာကို ဝင္ေရာက္ရန္ %1$s (%2$s) က အခြင့္ေတာင္းခံေနသည္။"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_ATTEMPTING_TO_STORE_A_LARGE_AMOUNT_OF_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "အြန္လိုင္းသံုးရန္ သင့္ကိရိယာေပၚတြင္ %1$s (%2$s) က ေဒတာ အေျမာက္အမ်ား သိုေလွာင္ရန္ ၾကိဳးပမ္းေနသည္။"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_STORE_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "ေအာ့ဖ္လိုင္း သံုးရန္ သင့္ကိရိယာေပၚ ေဒတာသိုေလွာင္ရန္ %1$s (%2$s) က အခြင့္ေတာင္းခံေနသည္။"
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "လႊဲေျပာင္းကူးယူမႈစတင္ေနပါသည္.."
+
+msgid "IDS_BR_BODY_SECURITY_CERTIFICATE_PROBLEM_MSG"
+msgstr "ဤဆိုက္အတြက္ လံုျခံဳေရး ေအာင္လက္မွတ္ႏွင့္ပတ္သက္၍ ျပသာနာမ်ား ရွိေနပါသည္။"
+
+msgid "IDS_BR_BODY_DESTINATIONS_AUTHENTICATION_REQUIRED"
+msgstr "Authentication required."
+
+msgid "IDS_BR_BODY_PASSWORD"
+msgstr "စကား၀ွက္"
+
+msgid "IDS_BR_BODY_AUTHUSERNAME"
+msgstr "သုံးစြဲသူ အမည္"
+
+msgid "IDS_BR_BODY_REMEMBER_PREFERENCE"
+msgstr "ပိုမိုႏွစ္သက္မႈမ်ားကို မွတ္ထားပါ"
+
+msgid "IDS_ST_POP_CLEAR_DEFAULT_APP_SETTINGS_BY_GOING_TO_SETTINGS_GENERAL_MANAGE_APPLICATIONS_ALL"
+msgstr "ဆက္တင္မ်ား > အေထြေထြ > အပလီေကးရွင္းမ်ား စီမံပါ > အားလံုး သို႔သြားျပီး အသင့္သြင္းထားသည့္ အက္ပ္ဆက္တင္မ်ား ရွင္းပါ။"
+
+msgid "IDS_BR_BODY_LOADING_ING"
+msgstr "အခ်က္အလက္ျဖည့္သြင္းေနပါသည္…"
+
+msgid "IDS_KA_BODY_DENY"
+msgstr "ျငင္းဆိုပါ"
+
+msgid "IDS_JAVA_POP_ALLOW_TO_USE_MEDIA_RECORDING_Q"
+msgstr "မီဒီယာျဖင့္ မွတ္တမ္းတင္ျခင္းကုိ ခြင့္ျပဳလုိပါသလား?"
+

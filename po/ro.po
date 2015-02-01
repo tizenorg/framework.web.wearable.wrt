@@ -1,0 +1,63 @@
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_USE_YOUR_CAMERA"
+msgstr "%1$s (%2$s) solicită permisiunea de a vă utiliza camera foto."
+
+msgid "IDS_BR_SK_OK"
+msgstr "OK"
+
+msgid "IDS_BR_SK_YES"
+msgstr "Da"
+
+msgid "IDS_BR_SK_NO"
+msgstr "Nu"
+
+msgid "IDS_BR_BODY_LOGIN"
+msgstr "Conectare"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "Anulare"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "Se permite"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_SHOW_NOTIFICATIONS"
+msgstr "%1$s (%2$s) solicită permisiunea de a afişa notificări."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_LOCATION"
+msgstr "%1$s (%2$s) solicită permisiunea de a vă accesa locaţia."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_ATTEMPTING_TO_STORE_A_LARGE_AMOUNT_OF_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) încearcă să salveze un volum mare de date pe dispozitivul dvs. pentru utilizarea offline."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_STORE_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) solicită permisiunea de a salva date pe dispozitivul dvs. pentru utilizarea offline."
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "Se începe descărcarea..."
+
+msgid "IDS_BR_BODY_SECURITY_CERTIFICATE_PROBLEM_MSG"
+msgstr "Au apărut probleme privind certificatul de securitate pentru acest site."
+
+msgid "IDS_BR_BODY_DESTINATIONS_AUTHENTICATION_REQUIRED"
+msgstr "Se solicită autentificare."
+
+msgid "IDS_BR_BODY_PASSWORD"
+msgstr "Parolă"
+
+msgid "IDS_BR_BODY_AUTHUSERNAME"
+msgstr "Nume utilizator"
+
+msgid "IDS_BR_BODY_REMEMBER_PREFERENCE"
+msgstr "Reţinere preferinţe"
+
+msgid "IDS_ST_POP_CLEAR_DEFAULT_APP_SETTINGS_BY_GOING_TO_SETTINGS_GENERAL_MANAGE_APPLICATIONS_ALL"
+msgstr "Ştergeţi setările implicite ale aplicaţiei accesând Setări > General >Gestionare aplicaţii > Toate."
+
+msgid "IDS_BR_BODY_LOADING_ING"
+msgstr "Încărcare..."
+
+msgid "IDS_KA_BODY_DENY"
+msgstr "Refuzare"
+
+msgid "IDS_JAVA_POP_ALLOW_TO_USE_MEDIA_RECORDING_Q"
+msgstr "Permiteţi utilizarea înregistrării media?"
+

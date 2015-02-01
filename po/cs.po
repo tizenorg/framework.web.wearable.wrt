@@ -1,0 +1,63 @@
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_USE_YOUR_CAMERA"
+msgstr "%1$s (%2$s) žádá o povolení použít fotoaparát."
+
+msgid "IDS_BR_SK_OK"
+msgstr "OK"
+
+msgid "IDS_BR_SK_YES"
+msgstr "Ano"
+
+msgid "IDS_BR_SK_NO"
+msgstr "Ne"
+
+msgid "IDS_BR_BODY_LOGIN"
+msgstr "Přihlášení"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "Zrušit"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "Povolit"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_SHOW_NOTIFICATIONS"
+msgstr "%1$s (%2$s) žádá o povolení zobrazit oznámení."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_LOCATION"
+msgstr "%1$s (%2$s) žádá o povolení přístupu k informacím o vaší poloze."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_ATTEMPTING_TO_STORE_A_LARGE_AMOUNT_OF_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) se pokouší uložit do zařízení velké množství dat pro použití offline."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_STORE_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) žádá o povolení uložit do zařízení data pro použití offline."
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "Spouští se stahování..."
+
+msgid "IDS_BR_BODY_SECURITY_CERTIFICATE_PROBLEM_MSG"
+msgstr "Došlo k potížím s certifikátem zabezpečení pro tento server."
+
+msgid "IDS_BR_BODY_DESTINATIONS_AUTHENTICATION_REQUIRED"
+msgstr "Je vyžadováno ověření."
+
+msgid "IDS_BR_BODY_PASSWORD"
+msgstr "Heslo"
+
+msgid "IDS_BR_BODY_AUTHUSERNAME"
+msgstr "Uživatelské jméno"
+
+msgid "IDS_BR_BODY_REMEMBER_PREFERENCE"
+msgstr "Zapamatovat preference."
+
+msgid "IDS_ST_POP_CLEAR_DEFAULT_APP_SETTINGS_BY_GOING_TO_SETTINGS_GENERAL_MANAGE_APPLICATIONS_ALL"
+msgstr "Vymažte výchozí nastavení aplikací pomocí Nastavení > Obecné > Správa aplikací > Vše."
+
+msgid "IDS_BR_BODY_LOADING_ING"
+msgstr "Nahrávám..."
+
+msgid "IDS_KA_BODY_DENY"
+msgstr "Odmítnout"
+
+msgid "IDS_JAVA_POP_ALLOW_TO_USE_MEDIA_RECORDING_Q"
+msgstr "Povolit nahrávání médií?"
+

@@ -1,0 +1,63 @@
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_USE_YOUR_CAMERA"
+msgstr "Η ιστοσελίδα %1$s (%2$s) ζητά δικαίωμα για τη χρήση της κάμεράς σας."
+
+msgid "IDS_BR_SK_OK"
+msgstr "OK"
+
+msgid "IDS_BR_SK_YES"
+msgstr "Ναι"
+
+msgid "IDS_BR_SK_NO"
+msgstr "Όχι"
+
+msgid "IDS_BR_BODY_LOGIN"
+msgstr "Σύνδεση"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "Άκυρο"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "Να επιτρέπεται"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_SHOW_NOTIFICATIONS"
+msgstr "Η ιστοσελίδα %1$s (%2$s) ζητά δικαίωμα για την εμφάνιση ειδοποιήσεων."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_LOCATION"
+msgstr "Η ιστοσελίδα %1$s (%2$s) ζητά δικαίωμα πρόσβασης στα δεδομένα θέσης σας."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_ATTEMPTING_TO_STORE_A_LARGE_AMOUNT_OF_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "Η ιστοσελίδα %1$s (%2$s) επιχειρεί να αποθηκεύσει ένα μεγάλο όγκο δεδομένων στη συσκευή σας για χρήση εκτός σύνδεσης."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_STORE_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "Η ιστοσελίδα %1$s (%2$s) ζητά δικαίωμα για την αποθήκευση δεδομένων στη συσκευή σας για χρήση εκτός σύνδεσης."
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "Ξεκινά η λήψη..."
+
+msgid "IDS_BR_BODY_SECURITY_CERTIFICATE_PROBLEM_MSG"
+msgstr "Υπάρχουν προβλήματα με το πιστοποιητικό ασφαλείας αυτής της τοποθεσίας."
+
+msgid "IDS_BR_BODY_DESTINATIONS_AUTHENTICATION_REQUIRED"
+msgstr "Απαιτείται έλεγχος ταυτότητας."
+
+msgid "IDS_BR_BODY_PASSWORD"
+msgstr "Κωδικός πρόσβασης"
+
+msgid "IDS_BR_BODY_AUTHUSERNAME"
+msgstr "Όνομα χρήστη"
+
+msgid "IDS_BR_BODY_REMEMBER_PREFERENCE"
+msgstr "Απομνημόνευση προτίμησης."
+
+msgid "IDS_ST_POP_CLEAR_DEFAULT_APP_SETTINGS_BY_GOING_TO_SETTINGS_GENERAL_MANAGE_APPLICATIONS_ALL"
+msgstr "Εκκαθαρίστε τις ρυθμίσεις προεπιλεγμένης εφαρμογής μεταβαίνοντας στις Ρυθμίσεις > Γενικά > Διαχείριση εφαρμογών > Όλα."
+
+msgid "IDS_BR_BODY_LOADING_ING"
+msgstr "Φόρτωση..."
+
+msgid "IDS_KA_BODY_DENY"
+msgstr "Απόρριψη"
+
+msgid "IDS_JAVA_POP_ALLOW_TO_USE_MEDIA_RECORDING_Q"
+msgstr "Να επιτραπεί η χρήση εγγραφής μέσου;"
+

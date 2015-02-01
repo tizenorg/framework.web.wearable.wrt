@@ -1,0 +1,63 @@
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_USE_YOUR_CAMERA"
+msgstr "%1$s(%2$s)がカメラを使用する権限を要求しています。"
+
+msgid "IDS_BR_SK_OK"
+msgstr "OK"
+
+msgid "IDS_BR_SK_YES"
+msgstr "はい"
+
+msgid "IDS_BR_SK_NO"
+msgstr "いいえ"
+
+msgid "IDS_BR_BODY_LOGIN"
+msgstr "ログイン"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "キャンセル"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "許可する"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_SHOW_NOTIFICATIONS"
+msgstr "%1$s(%2$s)が通知を表示する権限を要求しています。"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_LOCATION"
+msgstr "%1$s(%2$s)が現在地情報にアクセスする権限を要求しています。"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_ATTEMPTING_TO_STORE_A_LARGE_AMOUNT_OF_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s(%2$s)がオフラインで使用するために、端末に容量の大きなデータを保存しようとしています。"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_STORE_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s(%2$s)がオフラインで使用するために、端末にデータを保存する権限を要求しています。"
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "ダウンロード開始..."
+
+msgid "IDS_BR_BODY_SECURITY_CERTIFICATE_PROBLEM_MSG"
+msgstr "このサイトのセキュリティ証明書に問題があります。"
+
+msgid "IDS_BR_BODY_DESTINATIONS_AUTHENTICATION_REQUIRED"
+msgstr "認証が必要です。"
+
+msgid "IDS_BR_BODY_PASSWORD"
+msgstr "パスワード"
+
+msgid "IDS_BR_BODY_AUTHUSERNAME"
+msgstr "ユーザー名"
+
+msgid "IDS_BR_BODY_REMEMBER_PREFERENCE"
+msgstr "設定を保存"
+
+msgid "IDS_ST_POP_CLEAR_DEFAULT_APP_SETTINGS_BY_GOING_TO_SETTINGS_GENERAL_MANAGE_APPLICATIONS_ALL"
+msgstr "標準アプリ設定を解除するには、[設定] > [一般] > [アプリケーション管理] > [全て]に移動してください。"
+
+msgid "IDS_BR_BODY_LOADING_ING"
+msgstr "読み込み中..."
+
+msgid "IDS_KA_BODY_DENY"
+msgstr "拒否"
+
+msgid "IDS_JAVA_POP_ALLOW_TO_USE_MEDIA_RECORDING_Q"
+msgstr "メディア​録音​の​使用​を​許可​しますか？"
+

@@ -1,0 +1,63 @@
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_USE_YOUR_CAMERA"
+msgstr "%1$s (%2$s) zahteva dovoljenje za uporabo kamere."
+
+msgid "IDS_BR_SK_OK"
+msgstr "V redu"
+
+msgid "IDS_BR_SK_YES"
+msgstr "Da"
+
+msgid "IDS_BR_SK_NO"
+msgstr "Ne"
+
+msgid "IDS_BR_BODY_LOGIN"
+msgstr "Prijava"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "Prekliči"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "Dovoli"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_SHOW_NOTIFICATIONS"
+msgstr "%1$s (%2$s) zahteva dovoljenje za prikaz obvestil."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_LOCATION"
+msgstr "%1$s (%2$s) zahteva dovoljenje za dostop do vaše lokacije."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_ATTEMPTING_TO_STORE_A_LARGE_AMOUNT_OF_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) poskuša shraniti veliko količino podatkov v vašo napravo za uporabo brez povezave."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_STORE_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) zahteva dovoljenje za shranjevanje podatkov v vašo napravo za uporabo brez povezave."
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "Začenjam prenos ..."
+
+msgid "IDS_BR_BODY_SECURITY_CERTIFICATE_PROBLEM_MSG"
+msgstr "Za to spletno mesto obstajajo težave z varnostnim certifikatom."
+
+msgid "IDS_BR_BODY_DESTINATIONS_AUTHENTICATION_REQUIRED"
+msgstr "Potrebno je overjanje."
+
+msgid "IDS_BR_BODY_PASSWORD"
+msgstr "Geslo"
+
+msgid "IDS_BR_BODY_AUTHUSERNAME"
+msgstr "Uporabniško ime"
+
+msgid "IDS_BR_BODY_REMEMBER_PREFERENCE"
+msgstr "Zapomni si prednostne nastavitve."
+
+msgid "IDS_ST_POP_CLEAR_DEFAULT_APP_SETTINGS_BY_GOING_TO_SETTINGS_GENERAL_MANAGE_APPLICATIONS_ALL"
+msgstr "Izbrišite privzete nastavitve aplikacije v meniju Nastavitve > Splošno > Upravljanje aplikacij > Vse."
+
+msgid "IDS_BR_BODY_LOADING_ING"
+msgstr "Nalaganje..."
+
+msgid "IDS_KA_BODY_DENY"
+msgstr "Zavrnjeno"
+
+msgid "IDS_JAVA_POP_ALLOW_TO_USE_MEDIA_RECORDING_Q"
+msgstr "Dovolim uporabo snemanja medijev?"
+

@@ -1,0 +1,63 @@
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_USE_YOUR_CAMERA"
+msgstr "%1$s (%2$s) prašo leidimo naudoti jūsų fotoaparatą."
+
+msgid "IDS_BR_SK_OK"
+msgstr "Gerai"
+
+msgid "IDS_BR_SK_YES"
+msgstr "Taip"
+
+msgid "IDS_BR_SK_NO"
+msgstr "Ne"
+
+msgid "IDS_BR_BODY_LOGIN"
+msgstr "Prisijungimas"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "Atšaukti"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "Leisti"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_SHOW_NOTIFICATIONS"
+msgstr "%1$s (%2$s) prašo leidimo parodyti pranešimus."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_LOCATION"
+msgstr "%1$s (%2$s) prašo leidimo nustatyti jūsų vietą."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_ATTEMPTING_TO_STORE_A_LARGE_AMOUNT_OF_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) bando išsaugoti didelį duomenų kiekį jūsų įrenginyje, kad galėtų jais naudotis atsijungus."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_STORE_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) prašo leidimo išsaugoti duomenis jūsų įrenginyje ir naudotis jais atsijungus."
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "Pradeda siųsti..."
+
+msgid "IDS_BR_BODY_SECURITY_CERTIFICATE_PROBLEM_MSG"
+msgstr "Iškilo problemų dėl šios svetainės apsaugos sertifikato."
+
+msgid "IDS_BR_BODY_DESTINATIONS_AUTHENTICATION_REQUIRED"
+msgstr "Reikalinga patvirtinti autentiškumą."
+
+msgid "IDS_BR_BODY_PASSWORD"
+msgstr "Slaptažodis"
+
+msgid "IDS_BR_BODY_AUTHUSERNAME"
+msgstr "Naudotojo vardas"
+
+msgid "IDS_BR_BODY_REMEMBER_PREFERENCE"
+msgstr "Įsiminti nuostatą."
+
+msgid "IDS_ST_POP_CLEAR_DEFAULT_APP_SETTINGS_BY_GOING_TO_SETTINGS_GENERAL_MANAGE_APPLICATIONS_ALL"
+msgstr "Eidami į Nustatymai > Bendrieji nustatymai > Tvarkyti programas > Visos, išvalykite numatytuosius programos nustatymus."
+
+msgid "IDS_BR_BODY_LOADING_ING"
+msgstr "Įkeliama..."
+
+msgid "IDS_KA_BODY_DENY"
+msgstr "Atmesti"
+
+msgid "IDS_JAVA_POP_ALLOW_TO_USE_MEDIA_RECORDING_Q"
+msgstr "Leisti naudotis medijos įrašymo funkcija?"
+

@@ -1,0 +1,63 @@
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_USE_YOUR_CAMERA"
+msgstr "%1$s (%2$s) आपला कॅमेरा वापरण्‍याकरिता परवानगीसाठी विनंती करत आहे."
+
+msgid "IDS_BR_SK_OK"
+msgstr "ठीक"
+
+msgid "IDS_BR_SK_YES"
+msgstr "होय"
+
+msgid "IDS_BR_SK_NO"
+msgstr "नाही"
+
+msgid "IDS_BR_BODY_LOGIN"
+msgstr "लॉगिन"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "रद्द"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "अनुमती द्या"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_SHOW_NOTIFICATIONS"
+msgstr "%1$s (%2$s) अधिसूचना दर्शविण्‍याकरिता परवानगीची विनंती करत आहे."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_LOCATION"
+msgstr "%1$s (%2$s) आपले स्‍थान ऍक्‍सेस करण्‍याकरिता परवानगीसाठी विनंती करत आहे."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_ATTEMPTING_TO_STORE_A_LARGE_AMOUNT_OF_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) ऑफलाइन वापरासाठी आपल्‍या उपकरणवर डेटाची मोठी राशी संग्रहित करण्‍याचा प्रयत्‍न करत आहे."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_STORE_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) ऑफलाइन वापरासाठी आपल्‍या उपकरणवर डेटा संग्रहित करण्‍याकरिता परवानगीची विनंती करत आहे."
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "डाऊनलोड सुरू करीत आहे..."
+
+msgid "IDS_BR_BODY_SECURITY_CERTIFICATE_PROBLEM_MSG"
+msgstr "या संकेतस्थळाच्या सुरक्षा प्रमाणपत्रा बाबत समस्या आहेत."
+
+msgid "IDS_BR_BODY_DESTINATIONS_AUTHENTICATION_REQUIRED"
+msgstr "प्रमाणीकरण आवश्यक."
+
+msgid "IDS_BR_BODY_PASSWORD"
+msgstr "पासवर्ड"
+
+msgid "IDS_BR_BODY_AUTHUSERNAME"
+msgstr "वापरकर्त्याचे नाव"
+
+msgid "IDS_BR_BODY_REMEMBER_PREFERENCE"
+msgstr "प्राधान्य लक्षात ठेवा."
+
+msgid "IDS_ST_POP_CLEAR_DEFAULT_APP_SETTINGS_BY_GOING_TO_SETTINGS_GENERAL_MANAGE_APPLICATIONS_ALL"
+msgstr "सेटिंग्स > सामान्‍य > अनुप्रयोग व्यवस्थापित करा > सर्व वर जाऊन डीफॉल्ट अनुप्रयोग सेटिंग्स साफ करा."
+
+msgid "IDS_BR_BODY_LOADING_ING"
+msgstr "लोड होत आहे..."
+
+msgid "IDS_KA_BODY_DENY"
+msgstr "नकार द्या"
+
+msgid "IDS_JAVA_POP_ALLOW_TO_USE_MEDIA_RECORDING_Q"
+msgstr "मीडिया रेकॉर्डिंग वापरायला मान्य आहे?"
+

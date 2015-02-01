@@ -1,0 +1,63 @@
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_USE_YOUR_CAMERA"
+msgstr "%1$s (%2$s) meminta kebenaran menggunakan kamera anda."
+
+msgid "IDS_BR_SK_OK"
+msgstr "OK"
+
+msgid "IDS_BR_SK_YES"
+msgstr "Ya"
+
+msgid "IDS_BR_SK_NO"
+msgstr "Tidak"
+
+msgid "IDS_BR_BODY_LOGIN"
+msgstr "Log masuk"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "Batal"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "Benarkan"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_SHOW_NOTIFICATIONS"
+msgstr "%1$s (%2$s) meminta kebenaran menunjukkan pemberitahuan."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_LOCATION"
+msgstr "%1$s (%2$s) meminta kebenaran mencapai lokasi anda."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_ATTEMPTING_TO_STORE_A_LARGE_AMOUNT_OF_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) cuba menyimpan sejumlah besar data pada peranti anda untuk kegunaan luar talian."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_STORE_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) meminta kebenaran menyimpan data pada peranti anda untuk kegunaan luar talian."
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "Memulakan muat turun..."
+
+msgid "IDS_BR_BODY_SECURITY_CERTIFICATE_PROBLEM_MSG"
+msgstr "Terdapat masalah dengan sijil keselamatan untuk tapak ini."
+
+msgid "IDS_BR_BODY_DESTINATIONS_AUTHENTICATION_REQUIRED"
+msgstr "Pengesahan Diperlukan."
+
+msgid "IDS_BR_BODY_PASSWORD"
+msgstr "Kata laluan"
+
+msgid "IDS_BR_BODY_AUTHUSERNAME"
+msgstr "Nama pengguna"
+
+msgid "IDS_BR_BODY_REMEMBER_PREFERENCE"
+msgstr "Ingat keutamaan."
+
+msgid "IDS_ST_POP_CLEAR_DEFAULT_APP_SETTINGS_BY_GOING_TO_SETTINGS_GENERAL_MANAGE_APPLICATIONS_ALL"
+msgstr "Kosongkan aturan aplikasi lalai dengan pergi ke Aturan > Am > Uruskan aplikasi > Semua."
+
+msgid "IDS_BR_BODY_LOADING_ING"
+msgstr "Memuat…"
+
+msgid "IDS_KA_BODY_DENY"
+msgstr "Nafi"
+
+msgid "IDS_JAVA_POP_ALLOW_TO_USE_MEDIA_RECORDING_Q"
+msgstr "Benarkan untuk mengguna media untuk merakam?"
+

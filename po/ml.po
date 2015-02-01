@@ -1,0 +1,63 @@
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_USE_YOUR_CAMERA"
+msgstr "നിങ്ങളുടെ ക്യാമറ ആക്സസ്സ് ചെയ്യുന്നതിനുള്ള അനുമതി %1$s (%2$s) അഭ്യര്‍ത്ഥിക്കുന്നു."
+
+msgid "IDS_BR_SK_OK"
+msgstr "ശരി"
+
+msgid "IDS_BR_SK_YES"
+msgstr "അതെ"
+
+msgid "IDS_BR_SK_NO"
+msgstr "ഇല്ല"
+
+msgid "IDS_BR_BODY_LOGIN"
+msgstr "ലോഗിന്‍ ചെയ്യുക"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "റദ്ദാക്കു."
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "അനുവദിക്കൂ"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_SHOW_NOTIFICATIONS"
+msgstr "അറിയിപ്പുകള്‍ കാണിക്കുന്നതിനുള്ള അനുമതി %1$s (%2$s) അഭ്യര്‍ത്ഥിക്കുന്നു."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_LOCATION"
+msgstr "നിങ്ങളുടെ ലൊക്കേഷന്‍ ആക്സസ്സ് ചെയ്യുന്നതിനുള്ള അനുമതി %1$s (%2$s) അഭ്യര്‍ത്ഥിക്കുന്നു."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_ATTEMPTING_TO_STORE_A_LARGE_AMOUNT_OF_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "ഓഫ്‌ലൈന്‍ ഉപയോഗത്തിനായി വലിയ തോതിലുള്ള ഡാറ്റ നിങ്ങളുടെ ഉപകരണത്തില്‍ സംഭരിക്കുന്നതിനായി %1$s (%2$s) ശ്രമിക്കുന്നു."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_STORE_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "ഓഫ്‌ലൈന്‍ ഉപയോഗത്തിനായി നിങ്ങളുടെ ഉപകരണത്തില്‍ ഡാറ്റ സംഭരിക്കുന്നതിനുള്ള അനുമതി %1$s (%2$s) അഭ്യര്‍ത്ഥിക്കുന്നു."
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "ഡൌണ്‍ലോഡ് ആരംഭിക്കുന്നു..."
+
+msgid "IDS_BR_BODY_SECURITY_CERTIFICATE_PROBLEM_MSG"
+msgstr "ഈ സൈറ്റിനായുള്ള സുരക്ഷാ സര്‍ട്ടിഫിക്കറ്റില്‍ പ്രശ്നങ്ങളുണ്ട്."
+
+msgid "IDS_BR_BODY_DESTINATIONS_AUTHENTICATION_REQUIRED"
+msgstr "ആധാരീകരിക്കല്‍ ആവശ്യമാണ്."
+
+msgid "IDS_BR_BODY_PASSWORD"
+msgstr "പാസ്‌വേഡ്"
+
+msgid "IDS_BR_BODY_AUTHUSERNAME"
+msgstr "ഉപയോക്തൃ നാമം"
+
+msgid "IDS_BR_BODY_REMEMBER_PREFERENCE"
+msgstr "മുന്‍ഗണന ഓര്‍ക്കുക."
+
+msgid "IDS_ST_POP_CLEAR_DEFAULT_APP_SETTINGS_BY_GOING_TO_SETTINGS_GENERAL_MANAGE_APPLICATIONS_ALL"
+msgstr "ക്രമീകരണങ്ങൾ > പൊതുവായവ > ആപ്ലിക്കേഷനുകൾ മാനേജ് ചെയ്യുക > എല്ലാം തുടങ്ങിയവയിലേക്ക് പോയി ഡിഫോൾട്ട് ആപ്ലിക്കേഷൻ ക്രമീകരണങ്ങൾ മായ്ക്കുക."
+
+msgid "IDS_BR_BODY_LOADING_ING"
+msgstr "ലോഡ്‌ ചെയ്യുന്നു..."
+
+msgid "IDS_KA_BODY_DENY"
+msgstr "നിരസിക്കുക"
+
+msgid "IDS_JAVA_POP_ALLOW_TO_USE_MEDIA_RECORDING_Q"
+msgstr "മീഡിയ റെക്കോഡിംഗ് ഉപയോഗിക്കാന്‍ അനുവദിക്കണോ?"
+
