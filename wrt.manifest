@@ -1,0 +1,19 @@
+<manifest>
+  <define>
+    <domain name="wrt"/>
+      <provide>
+        <label name="wrt::wrt-launcher"/>
+        <label name="wrt::wrt_launchepad_daemon"/>
+      </provide>
+  </define>
+  <assign>
+    <filesystem path="/usr/bin/wrt-client" label="_" exec_label="none"/>
+    <filesystem path="/usr/bin/wrt-launcher" label="wrt::wrt-launcher" exec_label="wrt::wrt-launcher"/>
+    <filesystem path="/usr/bin/wrt_launchpad_daemon" label="wrt_launchpad_daemon" exec_label="wrt_launchpad_daemon"/>
+    <filesystem path="/usr/bin/wrt_reset_all.sh" label="_" exec_label="none"/>
+    <filesystem path="/usr/bin/wrt_reset_db.sh" label="_" exec_label="none"/>
+    <filesystem path="/usr/lib/*" label="_" exec_label="none"/>
+    <filesystem path="/usr/share/*" label="_" exec_label="none"/>
+    <filesystem path="/etc/*" label="_" exec_label="none"/>
+  </assign>
+</manifest>

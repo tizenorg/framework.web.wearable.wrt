@@ -1,0 +1,10 @@
+/usr/lib/libappcore-efl.so.1
+/usr/lib/libappcore-common.so.1
+/usr/lib/ecore/immodules/libisf-imf-module.so
+/usr/bin/wrt-client
+/usr/lib/libwrt-injected-bundle.so
+/usr/lib/libewebkit2.so
+/usr/lib/wrt-plugins/w3c-widget-interface/libwrt-plugins-w3c-widget-interface.so
+/usr/lib/wrt-plugins/tizen-tizen/libwrt-plugins-tizen-tizen.so
+/usr/lib/wrt-plugins/tizen-application/libwrt-plugins-tizen-application.so
+

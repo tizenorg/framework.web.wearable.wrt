@@ -1,0 +1,63 @@
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_USE_YOUR_CAMERA"
+msgstr "%1$s (%2$s) po kërkon leje për të përdorur kamerën."
+
+msgid "IDS_BR_SK_OK"
+msgstr "Ok"
+
+msgid "IDS_BR_SK_YES"
+msgstr "Po"
+
+msgid "IDS_BR_SK_NO"
+msgstr "Jo"
+
+msgid "IDS_BR_BODY_LOGIN"
+msgstr "Login"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "Anullo"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "Lejo"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_SHOW_NOTIFICATIONS"
+msgstr "%1$s (%2$s) po kërkon leje për të shfaqur njoftime."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_LOCATION"
+msgstr "%1$s (%2$s) po kërkon leje për t'u aksesuar në vendndodhjen tënde."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_ATTEMPTING_TO_STORE_A_LARGE_AMOUNT_OF_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) po përpiqet të ruajë një sasi të madhe të dhënash në pajisjen tënde për përdorim jashtë linje."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_STORE_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) po kërkon leje për të ruajtur të dhëna në pajisjen tënde për përdorim jashtë linje."
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "Duke filluar shkarkimin..."
+
+msgid "IDS_BR_BODY_SECURITY_CERTIFICATE_PROBLEM_MSG"
+msgstr "Ka probleme me certifikatën e sigurshmërisë për këtë site."
+
+msgid "IDS_BR_BODY_DESTINATIONS_AUTHENTICATION_REQUIRED"
+msgstr "Kërkohet autentikim."
+
+msgid "IDS_BR_BODY_PASSWORD"
+msgstr "Fjalëkalimi"
+
+msgid "IDS_BR_BODY_AUTHUSERNAME"
+msgstr "Emri i përdoruesit"
+
+msgid "IDS_BR_BODY_REMEMBER_PREFERENCE"
+msgstr "Mbaj mend preferencën."
+
+msgid "IDS_ST_POP_CLEAR_DEFAULT_APP_SETTINGS_BY_GOING_TO_SETTINGS_GENERAL_MANAGE_APPLICATIONS_ALL"
+msgstr "Pastro cilësimet e parazgjedhura të aplikacioneve duke shkuar te Cilësimet > Të përgjithshme > Menaxho aplikacionet > Të gjitha."
+
+msgid "IDS_BR_BODY_LOADING_ING"
+msgstr "Duke ngarkuar..."
+
+msgid "IDS_KA_BODY_DENY"
+msgstr "Refuzo"
+
+msgid "IDS_JAVA_POP_ALLOW_TO_USE_MEDIA_RECORDING_Q"
+msgstr "Ta lejoj të përdorë regjistrim në media?"
+

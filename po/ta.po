@@ -1,0 +1,63 @@
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_USE_YOUR_CAMERA"
+msgstr "%1$s (%2$s) உங்கள் கேமராவை உபயோகிக்க அனுமதி கோருகிறது."
+
+msgid "IDS_BR_SK_OK"
+msgstr "சரி"
+
+msgid "IDS_BR_SK_YES"
+msgstr "ஆம்"
+
+msgid "IDS_BR_SK_NO"
+msgstr "இல்லை"
+
+msgid "IDS_BR_BODY_LOGIN"
+msgstr "உள்நுழை"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "ரத்து"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "அனுமதி"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_SHOW_NOTIFICATIONS"
+msgstr "%1$s (%2$s) அறிவிக்கைகளைக் காட்டுவதற்கு அனுமதி கோருகிறது."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_LOCATION"
+msgstr "%1$s (%2$s) உங்கள் இருப்பிடத்தை அணுக அனுமதி கோருகிறது."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_ATTEMPTING_TO_STORE_A_LARGE_AMOUNT_OF_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) ஆஃப்லைன் உபயோகத்திற்காக உங்கள் சாதனத்தில் அதிகளவு தரவுகளைச் சேமிக்க முயற்சிக்கிறது."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_STORE_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) ஆஃப்லைன் உபயோகத்திற்காக உங்கள் சாதனத்தில் தரவுகளைச் சேமிக்க அனுமதி கோருகிறது."
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "பதிவிறக்கம் துவங்குகிறது..."
+
+msgid "IDS_BR_BODY_SECURITY_CERTIFICATE_PROBLEM_MSG"
+msgstr "இந்த இணையதளத்திற்கான பாதுகாப்பு சான்றிதழில் சில சிக்கல்கள் உள்ளன."
+
+msgid "IDS_BR_BODY_DESTINATIONS_AUTHENTICATION_REQUIRED"
+msgstr "அங்கீகரிப்பு தேவை."
+
+msgid "IDS_BR_BODY_PASSWORD"
+msgstr "கடவுச்சொல்"
+
+msgid "IDS_BR_BODY_AUTHUSERNAME"
+msgstr "பயனர் பெயர்"
+
+msgid "IDS_BR_BODY_REMEMBER_PREFERENCE"
+msgstr "முன்னுரிமையை நினைவுகொள்."
+
+msgid "IDS_ST_POP_CLEAR_DEFAULT_APP_SETTINGS_BY_GOING_TO_SETTINGS_GENERAL_MANAGE_APPLICATIONS_ALL"
+msgstr "அமைவுகள் > பொது > பயன்பாடுகளை நிர்வகி > அனைத்துக்குச் சென்று இயல்புநிலை பயன்பாடு அமைவுகளை அழிக்கவும்."
+
+msgid "IDS_BR_BODY_LOADING_ING"
+msgstr "லோடிங்..."
+
+msgid "IDS_KA_BODY_DENY"
+msgstr "மறுக்கவும்"
+
+msgid "IDS_JAVA_POP_ALLOW_TO_USE_MEDIA_RECORDING_Q"
+msgstr "ஊடக பதிதல் பயன்படுத்த அனுமதிக்கவா?"
+

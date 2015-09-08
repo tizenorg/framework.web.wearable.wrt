@@ -1,0 +1,63 @@
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_USE_YOUR_CAMERA"
+msgstr "%1$s (%2$s) möchte die Berechtigung erhalten, Ihre Kamera zu benutzen."
+
+msgid "IDS_BR_SK_OK"
+msgstr "OK"
+
+msgid "IDS_BR_SK_YES"
+msgstr "Ja"
+
+msgid "IDS_BR_SK_NO"
+msgstr "Nein"
+
+msgid "IDS_BR_BODY_LOGIN"
+msgstr "Anmeldung"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "Abbrechen"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "Zulassen"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_SHOW_NOTIFICATIONS"
+msgstr "%1$s (%2$s) möchte die Berechtigung erhalten, Benachrichtigungen anzuzeigen."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_LOCATION"
+msgstr "%1$s (%2$s) möchte die Berechtigung erhalten, um auf Ihren Standort zuzugreifen."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_ATTEMPTING_TO_STORE_A_LARGE_AMOUNT_OF_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) versucht, eine große Datenmenge für die Offline-Verwendung auf Ihrem Gerät zu speichern."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_STORE_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) möchte die Berechtigung erhalten, Daten für die Offline-Verwendung auf Ihrem Gerät zu speichern."
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "Download wird gestartet..."
+
+msgid "IDS_BR_BODY_SECURITY_CERTIFICATE_PROBLEM_MSG"
+msgstr "Probleme mit dem Sicherheitszertifikat für diese Site"
+
+msgid "IDS_BR_BODY_DESTINATIONS_AUTHENTICATION_REQUIRED"
+msgstr "Authentifizierung erforderlich"
+
+msgid "IDS_BR_BODY_PASSWORD"
+msgstr "Passwort"
+
+msgid "IDS_BR_BODY_AUTHUSERNAME"
+msgstr "Benutzername"
+
+msgid "IDS_BR_BODY_REMEMBER_PREFERENCE"
+msgstr "Voreinstellung merken"
+
+msgid "IDS_ST_POP_CLEAR_DEFAULT_APP_SETTINGS_BY_GOING_TO_SETTINGS_GENERAL_MANAGE_APPLICATIONS_ALL"
+msgstr "Löschen Sie App-Standardeinstellungen unter „Einstellungen > Allgemein > Anwendungsmanager > Alle“."
+
+msgid "IDS_BR_BODY_LOADING_ING"
+msgstr "Lädt..."
+
+msgid "IDS_KA_BODY_DENY"
+msgstr "Ablehnen"
+
+msgid "IDS_JAVA_POP_ALLOW_TO_USE_MEDIA_RECORDING_Q"
+msgstr "Verwenden der Medienaufnahme erlauben?"
+

@@ -1,0 +1,63 @@
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_USE_YOUR_CAMERA"
+msgstr "%1$s (%2$s) begär tillstånd för att använda kameran."
+
+msgid "IDS_BR_SK_OK"
+msgstr "OK"
+
+msgid "IDS_BR_SK_YES"
+msgstr "Ja"
+
+msgid "IDS_BR_SK_NO"
+msgstr "Nej"
+
+msgid "IDS_BR_BODY_LOGIN"
+msgstr "Inloggning"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "Avbryt"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "Tillåt"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_SHOW_NOTIFICATIONS"
+msgstr "%1$s (%2$s) begär tillstånd för att visa meddelanden."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_LOCATION"
+msgstr "%1$s (%2$s) begär tillstånd om åtkomst till din plats."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_ATTEMPTING_TO_STORE_A_LARGE_AMOUNT_OF_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) försöker att lagra en stor mängd data på din enhet för användning offline."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_STORE_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) begär tillstånd för att lagra en stor mängd data på din enhet för användning offline."
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "Startar hämtning..."
+
+msgid "IDS_BR_BODY_SECURITY_CERTIFICATE_PROBLEM_MSG"
+msgstr "Det är problem med säkerhetscertifikatet för denna plats."
+
+msgid "IDS_BR_BODY_DESTINATIONS_AUTHENTICATION_REQUIRED"
+msgstr "Verifiering krävs."
+
+msgid "IDS_BR_BODY_PASSWORD"
+msgstr "Lösenord"
+
+msgid "IDS_BR_BODY_AUTHUSERNAME"
+msgstr "Användarnamn"
+
+msgid "IDS_BR_BODY_REMEMBER_PREFERENCE"
+msgstr "Kom ihåg preferens."
+
+msgid "IDS_ST_POP_CLEAR_DEFAULT_APP_SETTINGS_BY_GOING_TO_SETTINGS_GENERAL_MANAGE_APPLICATIONS_ALL"
+msgstr "Rensa standardprograminställningarna genom att gå till Inställningar > Allmänt > Hantera program > Alla."
+
+msgid "IDS_BR_BODY_LOADING_ING"
+msgstr "Laddar..."
+
+msgid "IDS_KA_BODY_DENY"
+msgstr "Avvisa"
+
+msgid "IDS_JAVA_POP_ALLOW_TO_USE_MEDIA_RECORDING_Q"
+msgstr "Tillåt mediainspelning?"
+

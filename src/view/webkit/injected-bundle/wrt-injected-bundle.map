@@ -1,0 +1,18 @@
+{
+    global:
+        WKBundleInitialize;
+        _Jv_RegisterClasses;
+        __bss_end__;
+        __bss_start;
+        __bss_start__;
+        __cxa_finalize;
+        __end__;
+        __gmon_start__;
+        _bss_end__;
+        _edata;
+        _end;
+        _fini;
+        _init;
+        pthread_cancel;
+    local: *;
+};

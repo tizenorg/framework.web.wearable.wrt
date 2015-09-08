@@ -1,0 +1,63 @@
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_USE_YOUR_CAMERA"
+msgstr "%1$s (%2$s) հարցնում է Ձեր խցիկն օգտագործելու թույլտվություն:"
+
+msgid "IDS_BR_SK_OK"
+msgstr "Ընդունել"
+
+msgid "IDS_BR_SK_YES"
+msgstr "Այո"
+
+msgid "IDS_BR_SK_NO"
+msgstr "Ոչ"
+
+msgid "IDS_BR_BODY_LOGIN"
+msgstr "Մուտք գործել"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "Չեղարկել"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "Թույլատրել"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_SHOW_NOTIFICATIONS"
+msgstr "%1$s (%2$s) հարցնում է ծանուցումները ցույց տալու թույլտվություն:"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_LOCATION"
+msgstr "%1$s (%2$s) հարցնում է Ձեր գտնվելու տեղը մուտք գործելու թույլտվություն:"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_ATTEMPTING_TO_STORE_A_LARGE_AMOUNT_OF_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) փորձում է ցանցից դուրս օգտագործման համար մեծ քանակությամբ տվյալներ պահել Ձեր սարքում:"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_STORE_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) հարցնում է ցանցից դուրս օգտագործման համար Ձեր սարքում տվյալներ պահելու թույլտվություն:"
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "Ներբեռնման մեկնարկում..."
+
+msgid "IDS_BR_BODY_SECURITY_CERTIFICATE_PROBLEM_MSG"
+msgstr "Այս կայքն ունի անվտանգության վկայագրերի խնդիր:"
+
+msgid "IDS_BR_BODY_DESTINATIONS_AUTHENTICATION_REQUIRED"
+msgstr "Պահանջվում է վավերականացում:"
+
+msgid "IDS_BR_BODY_PASSWORD"
+msgstr "Գաղտնաբառ"
+
+msgid "IDS_BR_BODY_AUTHUSERNAME"
+msgstr "Օգտվողի անուն"
+
+msgid "IDS_BR_BODY_REMEMBER_PREFERENCE"
+msgstr "Հիշել նախապատվությունը:"
+
+msgid "IDS_ST_POP_CLEAR_DEFAULT_APP_SETTINGS_BY_GOING_TO_SETTINGS_GENERAL_MANAGE_APPLICATIONS_ALL"
+msgstr "Մաքրեք կանխադրված ծրագրի դրվածքները՝ գնալով Դրվածքներ > Ընդհանուր > Կառավարել ծրագրերը > Բոլոր:"
+
+msgid "IDS_BR_BODY_LOADING_ING"
+msgstr "Բեռնում է..."
+
+msgid "IDS_KA_BODY_DENY"
+msgstr "Մերժել"
+
+msgid "IDS_JAVA_POP_ALLOW_TO_USE_MEDIA_RECORDING_Q"
+msgstr "Թույլատրե՞լ մեդիա ձայնագրություններ"
+

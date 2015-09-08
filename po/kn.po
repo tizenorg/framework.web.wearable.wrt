@@ -1,0 +1,63 @@
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_USE_YOUR_CAMERA"
+msgstr "ನಿಮ್ಮ ಕ್ಯಾಮರಾ ಬಳಸಲು ಅನುಮತಿಯನ್ನು %1$s (%2$s) ವಿನಂತಿಸುತ್ತಿದೆ."
+
+msgid "IDS_BR_SK_OK"
+msgstr "ಸರಿ"
+
+msgid "IDS_BR_SK_YES"
+msgstr "ಹೌದು"
+
+msgid "IDS_BR_SK_NO"
+msgstr "ಇಲ್ಲ"
+
+msgid "IDS_BR_BODY_LOGIN"
+msgstr "ಲಾಗಿನ್"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "ರದ್ದು"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "ಅನುಮತಿಸು"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_SHOW_NOTIFICATIONS"
+msgstr "ಪ್ರಕಟಣೆಗಳನ್ನು ತೋರಿಸಲು ಅನುಮತಿಯನ್ನು %1$s (%2$s) ವಿನಂತಿಸುತ್ತಿದೆ."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_LOCATION"
+msgstr "ನಿಮ್ಮ ಸ್ಥಳವನ್ನು ಪ್ರವೇಶಿಸಲು %1$s (%2$s) ವಿನಂತಿಸುತ್ತಿದೆ."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_ATTEMPTING_TO_STORE_A_LARGE_AMOUNT_OF_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "ಆಫ್‌ಲೈನ್ ಬಳಕೆಗಾಗಿ ನಿಮ್ಮ ಸಾಧನದಲ್ಲಿ ದೊಡ್ಡ ಪ್ರಮಾಣದ ಡೇಟಾವನ್ನು ಸಂಗ್ರಹಿಸಲು %1$s (%2$s) ಪ್ರಯತ್ನಿಸುತ್ತಿದೆ."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_STORE_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "ಆಫ್‌ಲೈನ್ ಬಳಕೆಗಾಗಿ ನಿಮ್ಮ ಸಾಧನದಲ್ಲಿ ಡೇಟಾ ಸಂಗ್ರಹಿಸಲು ಅನುಮತಿಯನ್ನು %1$s (%2$s) ವಿನಂತಿಸುತ್ತಿದೆ."
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "ಡೌನ್‌ಲೋಡ್ ಆರಂಭಿಸುತ್ತಿದೆ..."
+
+msgid "IDS_BR_BODY_SECURITY_CERTIFICATE_PROBLEM_MSG"
+msgstr "ಈ ಸೈಟಿನ ಸುರಕ್ಷತಾ ಪ್ರಮಾಣಪತ್ರದ ಜೊತೆ ಸಮಸ್ಯೆಗಳಿವೆ."
+
+msgid "IDS_BR_BODY_DESTINATIONS_AUTHENTICATION_REQUIRED"
+msgstr "ಪ್ರಮಾಣೀಕರಣ ಅಗತ್ಯವಿದೆ."
+
+msgid "IDS_BR_BODY_PASSWORD"
+msgstr "ಪಾಸ್‌ವರ್ಡ್"
+
+msgid "IDS_BR_BODY_AUTHUSERNAME"
+msgstr "ಬಳಕೆದಾರರಹೆಸರು"
+
+msgid "IDS_BR_BODY_REMEMBER_PREFERENCE"
+msgstr "ಇಚ್ಛೆ ನೆನಪಿಡಿ."
+
+msgid "IDS_ST_POP_CLEAR_DEFAULT_APP_SETTINGS_BY_GOING_TO_SETTINGS_GENERAL_MANAGE_APPLICATIONS_ALL"
+msgstr "ಸಂಯೋಜನೆ‌ಗಳು > ಸಾಮಾನ್ಯ > ಅನ್ವಹಿಸುವಿಕೆಗಳನ್ನು ನಿರ್ವಹಿಸು > ಎಲ್ಲಾ ಇಲ್ಲಿಗೆ ಹೋಗುವ ಮೂಲಕ ಡೀಫಾಲ್ಟ್ ಅನ್ವಹಿಸುವಿಕೆ ಸಂಯೋಜನೆಗಳನ್ನು ತೆರವುಗೊಳಿಸಿ."
+
+msgid "IDS_BR_BODY_LOADING_ING"
+msgstr "ಲೋಡಿಂಗ್..."
+
+msgid "IDS_KA_BODY_DENY"
+msgstr "ನಿರಾಕರಿಸು"
+
+msgid "IDS_JAVA_POP_ALLOW_TO_USE_MEDIA_RECORDING_Q"
+msgstr "ಮಿಡಿಯಾ ರೆಕಾರ್ಡಿಂಗ್ ಉಪಯೋಗಿಸಲು ಅನುಮತಿ ನೀಡಲೆ?"
+

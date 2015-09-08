@@ -1,0 +1,39 @@
+README file for WARP PATENT ISSUE
+
+The files below have been implemented in compliance with  W3C WARP SPEC.
+ 
+src/domain/efl/view_logic.cpp
+src/domain/warp_iri.cpp
+src/domain/widget_data_types.h
+tests/warp_tests/TestCases.cpp
+tests/warp_tests/WarpIriTestBase.cpp
+
+There are some patent issue between  W3C WARP SPEC and  APPPLE.
+If you want to use this files, refer to the W3C Notices.
+
+[W3C Notice]
+http://www.w3.org/2010/12/cfpa
+refer to the WARP_Widgets_Access Request Policy_PAG Report_49839.pdf  in root directory or http://www.w3.org/2009/11/widgets-pag/pagreport
+
+
+W3C's Disclaimer
+--------------------------------------------------------------------------------------------------------------------------------------
+Although portions of this PAG analysis were drafted by attorneys following review of the facts,
+none of the authors is your attorney. No part of this report is intended as legal advice either to W3C or to its members.
+It is intended merely as a summary of what the PAG has learned to date.
+Rely on this report entirely at your own risk. However, nothing should prevent even
+an attorney from expressing his or her personal opinions, and so this analysis includes the personal opinions of the authors.
+
+With respect to W3C, the publication of the WARP Candidate Recommendation would not, by itself, be patent infringement
+of any patents owned by Apple or anyone else. Implementers and distributors of software products,
+though, are encouraged to read the analysis below, consult with their own attorneys, and form their own conclusions.
+
+THESE RECOMMENDATIONS OF THE PATENT ADVISORY GROUP ARE NOT LEGAL ADVICE.
+NEITHER W3C NOR ANY OF THE PARTICIPANTS OF THE WIDGET UPDATES PATENT ADVISORY GROUP
+OR THEIR RESPECTIVE EMPLOYERS TAKES ANY RESPONSIBILITY FOR THE ACCURACY, LEGAL CORRECTNESS
+OR OTHER FITNESS FOR ANY PURPOSE OF THE INFORMATION PROVIDED IN THIS REPORT. ESPECIALLY,
+NEITHER W3C NOR ANY OF THE PARTICIPANTS OF THE WIDGET UPDATES PATENT ADVISORY GROUP
+OR ANY OF THEIR RESPECTIVE EMPLOYERS MAKE ANY REPRESENTATION THAT FOLLOWING THE RECOMMENDATIONS
+HERE WILL AVOID AN INFRINGEMENT OF THE US PATENT NR. 7,743,336 OR ANY OTHER PATENT MENTIONED
+ IN THE REPORT OR THE PAGE ON PRIOR ART.
+--------------------------------------------------------------------------------------------------------------------------------------

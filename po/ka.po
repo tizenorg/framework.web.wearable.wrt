@@ -1,0 +1,63 @@
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_USE_YOUR_CAMERA"
+msgstr "%1$s (%2$s) ითხოვს თქვენი კამერის გამოყენების ნებართვას."
+
+msgid "IDS_BR_SK_OK"
+msgstr "კი"
+
+msgid "IDS_BR_SK_YES"
+msgstr "კი"
+
+msgid "IDS_BR_SK_NO"
+msgstr "არა"
+
+msgid "IDS_BR_BODY_LOGIN"
+msgstr "შესვლა"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "გაუქმება"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "დართე ნება"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_SHOW_NOTIFICATIONS"
+msgstr "%1$s (%2$s) ითხოვს შეტყობინებების ჩვენების ნებართვას."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_LOCATION"
+msgstr "%1$s (%2$s) ითხოვს თქვენს ლოკაციაზე წვდომის ნებართვას."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_ATTEMPTING_TO_STORE_A_LARGE_AMOUNT_OF_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) ცდილობს შეინახოს დიდი მოცულობის მონაცემები თქვენს მოწყობილობაში, ინტერნეტში გამოსაყენებლად."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_STORE_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) ითხოვს მონაცემების თქვენს მოწყობილობაში შენახვის ნებართვას, ინტერნეტში მათ გამოსაყენებლად."
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "იწყება ჩამოტვირთვა..."
+
+msgid "IDS_BR_BODY_SECURITY_CERTIFICATE_PROBLEM_MSG"
+msgstr "ამ საიტს აქვს უსაფრთხოების სერთიფიკატთან დაკავშირებული პრობლემა."
+
+msgid "IDS_BR_BODY_DESTINATIONS_AUTHENTICATION_REQUIRED"
+msgstr "ავტორიზაცია აუცილებელია."
+
+msgid "IDS_BR_BODY_PASSWORD"
+msgstr "პაროლი"
+
+msgid "IDS_BR_BODY_AUTHUSERNAME"
+msgstr "მომხმარებლის სახელი"
+
+msgid "IDS_BR_BODY_REMEMBER_PREFERENCE"
+msgstr "უპირატესობის დამახსოვრება."
+
+msgid "IDS_ST_POP_CLEAR_DEFAULT_APP_SETTINGS_BY_GOING_TO_SETTINGS_GENERAL_MANAGE_APPLICATIONS_ALL"
+msgstr "პროგრამის ნაგულისხმევი პარამეტრების წასაშლელად, გახსენით პარამეტრები > ზოგადი > პროგრამების მართვა > ყველა."
+
+msgid "IDS_BR_BODY_LOADING_ING"
+msgstr "იტვირთება..."
+
+msgid "IDS_KA_BODY_DENY"
+msgstr "უარყოფა"
+
+msgid "IDS_JAVA_POP_ALLOW_TO_USE_MEDIA_RECORDING_Q"
+msgstr "დართავთ მედია ჩანაწერის გამოყენების ნებას?"
+

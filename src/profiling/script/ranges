@@ -1,0 +1,5 @@
+Whole startup:Profiling_Started-:wrt_launch-stop
+Library loading:Profiling_Started-:main-entered-point
+app_core/dpl operations:main-entered-point:wrt_init-start
+wrt-init:wrt_init-start:wrt_init-stop
+WRT launch:wrt_launch-start:wrt_launch-stop

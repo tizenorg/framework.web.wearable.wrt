@@ -1,0 +1,63 @@
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_USE_YOUR_CAMERA"
+msgstr "%1$s (%2$s) таны камерыг ашиглах зөвшөөрөл хүсэж байна"
+
+msgid "IDS_BR_SK_OK"
+msgstr "OK"
+
+msgid "IDS_BR_SK_YES"
+msgstr "Тийм"
+
+msgid "IDS_BR_SK_NO"
+msgstr "Үгүй"
+
+msgid "IDS_BR_BODY_LOGIN"
+msgstr "Нэвтрэх"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "Цуцлах"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "Зөвшөөрөх"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_SHOW_NOTIFICATIONS"
+msgstr "%1$s (%2$s) мэдэгдлүүд харуулах зөвшөөрөл хүсэж байна"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_LOCATION"
+msgstr "%1$s (%2$s) таны байрлалд хандах зөвшөөрөл хүсэж байна"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_ATTEMPTING_TO_STORE_A_LARGE_AMOUNT_OF_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) сүлжээнд холбоогүй ашиглах их хэмжээний өгөгдөл таны төхөөрөмж дээр хадгалахыг оролдож байна"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_STORE_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) сүлжээнд холбоогүй ашиглах өгөгдөл таны төхөөрөмж дээр хадгалах зөвшөөрөл хүсэж байна"
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "Татан авалтыг эхлүүлж байна..."
+
+msgid "IDS_BR_BODY_SECURITY_CERTIFICATE_PROBLEM_MSG"
+msgstr "Энэ сайтын хамгаалалтын гэрчилгээ асуудалтай байна"
+
+msgid "IDS_BR_BODY_DESTINATIONS_AUTHENTICATION_REQUIRED"
+msgstr "Баталгаажуулалт шаардагдана."
+
+msgid "IDS_BR_BODY_PASSWORD"
+msgstr "Нууц үг"
+
+msgid "IDS_BR_BODY_AUTHUSERNAME"
+msgstr "Хэрэглэгчийн нэр"
+
+msgid "IDS_BR_BODY_REMEMBER_PREFERENCE"
+msgstr "Сонголт санах"
+
+msgid "IDS_ST_POP_CLEAR_DEFAULT_APP_SETTINGS_BY_GOING_TO_SETTINGS_GENERAL_MANAGE_APPLICATIONS_ALL"
+msgstr "Тохиргоо > Ерөнхий > Програмууд удирдах > Бүгд рүү очиж өгөгдмөл програмын тохиргоог арилга"
+
+msgid "IDS_BR_BODY_LOADING_ING"
+msgstr "Ачаалж байна..."
+
+msgid "IDS_KA_BODY_DENY"
+msgstr "Татгалзах"
+
+msgid "IDS_JAVA_POP_ALLOW_TO_USE_MEDIA_RECORDING_Q"
+msgstr "Медиа бичлэг ашиглахыг зөвшөөрөх үү?"
+

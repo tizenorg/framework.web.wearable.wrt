@@ -1,0 +1,63 @@
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_USE_YOUR_CAMERA"
+msgstr "%1$s (%2$s) מבקש אישור לשימוש במצלמה שלך"
+
+msgid "IDS_BR_SK_OK"
+msgstr "אישור"
+
+msgid "IDS_BR_SK_YES"
+msgstr "כן"
+
+msgid "IDS_BR_SK_NO"
+msgstr "לא"
+
+msgid "IDS_BR_BODY_LOGIN"
+msgstr "כניסה"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "ביטול"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "אפשר"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_SHOW_NOTIFICATIONS"
+msgstr "%1$s (%2$s) מבקש אישור להציג התראות"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_LOCATION"
+msgstr "%1$s (%2$s) מבקש אישור לגשת למיקום שלך"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_ATTEMPTING_TO_STORE_A_LARGE_AMOUNT_OF_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) מנסה לאחסן כמות נתונים גדולה במכשיר שלך לצורך שימוש לא מקוון"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_STORE_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) מבקש הרשאה לאחסון נתונים במכשיר שלך לצורך שימוש לא מקוון"
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "ההורדה מתחילה..."
+
+msgid "IDS_BR_BODY_SECURITY_CERTIFICATE_PROBLEM_MSG"
+msgstr "יש בעיות באישור האבטחה של אתר זה."
+
+msgid "IDS_BR_BODY_DESTINATIONS_AUTHENTICATION_REQUIRED"
+msgstr "אימות דרוש."
+
+msgid "IDS_BR_BODY_PASSWORD"
+msgstr "סיסמה"
+
+msgid "IDS_BR_BODY_AUTHUSERNAME"
+msgstr "שם משתמש"
+
+msgid "IDS_BR_BODY_REMEMBER_PREFERENCE"
+msgstr "זכור העדפה."
+
+msgid "IDS_ST_POP_CLEAR_DEFAULT_APP_SETTINGS_BY_GOING_TO_SETTINGS_GENERAL_MANAGE_APPLICATIONS_ALL"
+msgstr "נקה את הגדרות היישום שנקבעו כברירת מחדל דרך הגדרות > כללי > נהל יישומים > הכל."
+
+msgid "IDS_BR_BODY_LOADING_ING"
+msgstr "טוען..."
+
+msgid "IDS_KA_BODY_DENY"
+msgstr "דחה"
+
+msgid "IDS_JAVA_POP_ALLOW_TO_USE_MEDIA_RECORDING_Q"
+msgstr "לאפשר שימוש בהקלטת מדיה?"
+

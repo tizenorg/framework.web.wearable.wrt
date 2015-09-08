@@ -1,0 +1,52 @@
+#define MAIN_W      470
+#define MAIN_H      800
+
+#define TITLE_START_Y   72
+#define TITLE_H     90
+
+#define FULL_TRANS      0 0 0 0
+#define TXT_SIZE 14
+#define FONT_NAME "system_content"
+
+images {
+}
+
+collections
+        group {
+        name: "popup_h";
+
+    #define BUTTON_WIDTH 200.0
+    #define BUTTON_HEIGHT 78.0
+    #define BUTTON_GAP 50.0
+    #define PART_MAX 5000
+    parts{
+    part {
+            name: "0";
+            type: SWALLOW;
+            scale: 1;
+
+            description {
+            state: "default" 0.0;
+
+                fixed: 1 1;
+                rel1 { relative: 0.1 0.0; }
+                rel2 { relative: 0.5 0.9; }
+            }
+        }
+
+        part {
+            name: "1";
+            type: SWALLOW;
+            scale: 1;
+
+            description {
+
+                fixed: 1 1;
+                rel1 { relative: 0.5 0.0;  }
+                rel2 { relative: 0.9 0.9;   }
+            }
+        }
+     }
+   }
+
+}

@@ -1,0 +1,63 @@
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_USE_YOUR_CAMERA"
+msgstr "%1$s (%2$s) ber om tillatelse til å bruke kameraet ditt."
+
+msgid "IDS_BR_SK_OK"
+msgstr "OK"
+
+msgid "IDS_BR_SK_YES"
+msgstr "Ja"
+
+msgid "IDS_BR_SK_NO"
+msgstr "Nei"
+
+msgid "IDS_BR_BODY_LOGIN"
+msgstr "Logg inn"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "Avbryt"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "Tillat"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_SHOW_NOTIFICATIONS"
+msgstr "%1$s (%2$s) ber om tillatelse til å vise varsler."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_LOCATION"
+msgstr "%1$s (%2$s) ber om tillatelse til å få tilgang til posisjonen din."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_ATTEMPTING_TO_STORE_A_LARGE_AMOUNT_OF_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) forsøker å lagre store mengder data på enheten din for bruk i frakoblet modus."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_STORE_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) ber om tillatelse til å lagre data på enheten din for bruk i frakoblet modus."
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "Starter nedlasting..."
+
+msgid "IDS_BR_BODY_SECURITY_CERTIFICATE_PROBLEM_MSG"
+msgstr "Det er problemer med sikkerhetssertifikatet for dette området."
+
+msgid "IDS_BR_BODY_DESTINATIONS_AUTHENTICATION_REQUIRED"
+msgstr "Krever godkjenning."
+
+msgid "IDS_BR_BODY_PASSWORD"
+msgstr "Passord"
+
+msgid "IDS_BR_BODY_AUTHUSERNAME"
+msgstr "Brukernavn"
+
+msgid "IDS_BR_BODY_REMEMBER_PREFERENCE"
+msgstr "Husk preferanse."
+
+msgid "IDS_ST_POP_CLEAR_DEFAULT_APP_SETTINGS_BY_GOING_TO_SETTINGS_GENERAL_MANAGE_APPLICATIONS_ALL"
+msgstr "Fjern standard appinnstillinger ved å gå til Innstillinger > Generelt > Administrer apper > Alle."
+
+msgid "IDS_BR_BODY_LOADING_ING"
+msgstr "Åpner..."
+
+msgid "IDS_KA_BODY_DENY"
+msgstr "Avslå"
+
+msgid "IDS_JAVA_POP_ALLOW_TO_USE_MEDIA_RECORDING_Q"
+msgstr "Tillate å bruke mediaopptak?"
+

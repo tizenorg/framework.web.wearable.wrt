@@ -1,0 +1,63 @@
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_USE_YOUR_CAMERA"
+msgstr "Tá %1$s (%2$s) ag iarraidh ceada le do cheamara a úsáid"
+
+msgid "IDS_BR_SK_OK"
+msgstr "OK"
+
+msgid "IDS_BR_SK_YES"
+msgstr "Déan é"
+
+msgid "IDS_BR_SK_NO"
+msgstr "Ná déan é"
+
+msgid "IDS_BR_BODY_LOGIN"
+msgstr "Logáil isteach"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "Cuir ar ceal"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "Ceadaigh"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_SHOW_NOTIFICATIONS"
+msgstr "Tá %1$s (%2$s) ag iarraidh ceada le fógraí a thaispeáint"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_LOCATION"
+msgstr "Tá %1$s (%2$s) ag iarraidh ceada le do shuíomh a rochtain"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_ATTEMPTING_TO_STORE_A_LARGE_AMOUNT_OF_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "Tá %1$s (%2$s) ag iarraidh líon mór sonraí a stóráil ar do ghléas le húsáid as líne"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_STORE_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "Tá %1$s (%2$s) ag iarraidh ceada le sonraí a stóráil ar do ghléas le húsáid as líne"
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "Ag tosú ar íoslódáil..."
+
+msgid "IDS_BR_BODY_SECURITY_CERTIFICATE_PROBLEM_MSG"
+msgstr "Tá fadhbanna leis an deimhniú slándála don láithreán seo"
+
+msgid "IDS_BR_BODY_DESTINATIONS_AUTHENTICATION_REQUIRED"
+msgstr "Fíordheimhniú de dhíth."
+
+msgid "IDS_BR_BODY_PASSWORD"
+msgstr "Pasfhocal"
+
+msgid "IDS_BR_BODY_AUTHUSERNAME"
+msgstr "Ainm úsáideora"
+
+msgid "IDS_BR_BODY_REMEMBER_PREFERENCE"
+msgstr "Cuimhnigh ar mo shainrogha"
+
+msgid "IDS_ST_POP_CLEAR_DEFAULT_APP_SETTINGS_BY_GOING_TO_SETTINGS_GENERAL_MANAGE_APPLICATIONS_ALL"
+msgstr "Glan réamhshocruithe feidhmchláir trí ghabháil chuig Socruithe > Ginearálta > Bainistigh feidhmchláir > Gach"
+
+msgid "IDS_BR_BODY_LOADING_ING"
+msgstr "Ag lódáil..."
+
+msgid "IDS_KA_BODY_DENY"
+msgstr "Séan air"
+
+msgid "IDS_JAVA_POP_ALLOW_TO_USE_MEDIA_RECORDING_Q"
+msgstr "Ceadaigh taifeadadh meán a úsáid?"
+

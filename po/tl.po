@@ -1,0 +1,63 @@
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_USE_YOUR_CAMERA"
+msgstr "Si %1$s (%2$s) ay humihiling ng pahintulot na gamitin ang iyong camera."
+
+msgid "IDS_BR_SK_OK"
+msgstr "OK"
+
+msgid "IDS_BR_SK_YES"
+msgstr "Oo"
+
+msgid "IDS_BR_SK_NO"
+msgstr "Hindi"
+
+msgid "IDS_BR_BODY_LOGIN"
+msgstr "Mag-log in"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "Ikansela"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "Payagan"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_SHOW_NOTIFICATIONS"
+msgstr "Si %1$s (%2$s) ay humihiling ng pahintulot na magpakita ng mga notification."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_LOCATION"
+msgstr "Si %1$s (%2$s) ay humihiling ng pahintulot na ma-access ang iyong lokasyon."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_ATTEMPTING_TO_STORE_A_LARGE_AMOUNT_OF_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "Sinusubukan ni %1$s (%2$s) na mag-store ng malaking halaga ng data sa iyong device para sa paggamit offline."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_STORE_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "Si %1$s (%2$s) ay humihiling ng pahintulot na mag-store ng data sa iyong device para sa paggamit offline."
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "Sinisimulan ang pag-download..."
+
+msgid "IDS_BR_BODY_SECURITY_CERTIFICATE_PROBLEM_MSG"
+msgstr "Mayroong mga problema sa katibayan sa seguridad para sa site na ito."
+
+msgid "IDS_BR_BODY_DESTINATIONS_AUTHENTICATION_REQUIRED"
+msgstr "Kailangan ng pagpapatunay"
+
+msgid "IDS_BR_BODY_PASSWORD"
+msgstr "Password"
+
+msgid "IDS_BR_BODY_AUTHUSERNAME"
+msgstr "Username"
+
+msgid "IDS_BR_BODY_REMEMBER_PREFERENCE"
+msgstr "Tandaan ang preferences."
+
+msgid "IDS_ST_POP_CLEAR_DEFAULT_APP_SETTINGS_BY_GOING_TO_SETTINGS_GENERAL_MANAGE_APPLICATIONS_ALL"
+msgstr "I-clear ang default na mga setting ng app sa pamamagitan ng pagpunta sa Mga Setting > Pangkalahatan > Pamahalaan ang mga application > Lahat."
+
+msgid "IDS_BR_BODY_LOADING_ING"
+msgstr "Naglo-load..."
+
+msgid "IDS_KA_BODY_DENY"
+msgstr "Tanggihan"
+
+msgid "IDS_JAVA_POP_ALLOW_TO_USE_MEDIA_RECORDING_Q"
+msgstr "Payagang gumamit ng media recording?"
+

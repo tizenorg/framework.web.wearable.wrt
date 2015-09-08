@@ -1,0 +1,63 @@
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_USE_YOUR_CAMERA"
+msgstr "%1$s (%2$s) biður um leyfi til að nota myndavélina þína."
+
+msgid "IDS_BR_SK_OK"
+msgstr "Í lagi"
+
+msgid "IDS_BR_SK_YES"
+msgstr "Já"
+
+msgid "IDS_BR_SK_NO"
+msgstr "Nei"
+
+msgid "IDS_BR_BODY_LOGIN"
+msgstr "Innskráning"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "Hætta við"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "Leyfa"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_SHOW_NOTIFICATIONS"
+msgstr "%1$s (%2$s) biður um leyfi til að sýna tilkynningar."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_LOCATION"
+msgstr "%1$s (%2$s) biður um leyfi til að fá aðgang að staðsetningunni þinni."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_ATTEMPTING_TO_STORE_A_LARGE_AMOUNT_OF_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) er að reyna að geyma mikið magn gagna í tækinu til notkunar án nettengingar."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_STORE_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) biður um leyfi til að geyma mikið magn gagna í tækinu til notkunar án nettengingar."
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "Ræsi niðurhal..."
+
+msgid "IDS_BR_BODY_SECURITY_CERTIFICATE_PROBLEM_MSG"
+msgstr "Það komu upp vandamál með öryggisvottorðið fyrir þetta svæði."
+
+msgid "IDS_BR_BODY_DESTINATIONS_AUTHENTICATION_REQUIRED"
+msgstr "Sannprófun er nauðsynleg."
+
+msgid "IDS_BR_BODY_PASSWORD"
+msgstr "Aðgangsorð"
+
+msgid "IDS_BR_BODY_AUTHUSERNAME"
+msgstr "Notandanafn"
+
+msgid "IDS_BR_BODY_REMEMBER_PREFERENCE"
+msgstr "Muna stillingu."
+
+msgid "IDS_ST_POP_CLEAR_DEFAULT_APP_SETTINGS_BY_GOING_TO_SETTINGS_GENERAL_MANAGE_APPLICATIONS_ALL"
+msgstr "Hreinsaðu sjálfgefnar forritastillingar með því að fara í Stillingar > Almennt > Stjórna forritum > Allt."
+
+msgid "IDS_BR_BODY_LOADING_ING"
+msgstr "Hleð..."
+
+msgid "IDS_KA_BODY_DENY"
+msgstr "Hafna"
+
+msgid "IDS_JAVA_POP_ALLOW_TO_USE_MEDIA_RECORDING_Q"
+msgstr "Leyfa efnisupptöku?"
+

@@ -1,0 +1,63 @@
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_USE_YOUR_CAMERA"
+msgstr "%1$s (%2$s) baimena eskatzen ari zaizu zure kamera erabiltzeko"
+
+msgid "IDS_BR_SK_OK"
+msgstr "Ados"
+
+msgid "IDS_BR_SK_YES"
+msgstr "Bai"
+
+msgid "IDS_BR_SK_NO"
+msgstr "Ez"
+
+msgid "IDS_BR_BODY_LOGIN"
+msgstr "Saioa hasi"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "Ezeztatu"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "Onartu"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_SHOW_NOTIFICATIONS"
+msgstr "%1$s (%2$s) baimena eskatzen ari zaizu jakinarazpenak erakusteko"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_LOCATION"
+msgstr "%1$s (%2$s) baimena eskatzen ari zaizu zure kokapenera sartzeko"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_ATTEMPTING_TO_STORE_A_LARGE_AMOUNT_OF_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) datu kopuru handia gordetzen saiatzen ari da zure gailua lineaz kanpo erabiltzeko"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_STORE_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) baimena eskatzen ari zaizu datu kopuru handia gordetzeko zure gailuan lineaz kanpoko erabilerarako"
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "Deskarga hasten..."
+
+msgid "IDS_BR_BODY_SECURITY_CERTIFICATE_PROBLEM_MSG"
+msgstr "Arazoak daude gune honen segurtasun ziurtagiriarekin"
+
+msgid "IDS_BR_BODY_DESTINATIONS_AUTHENTICATION_REQUIRED"
+msgstr "Autentikazioa beharrezkoa"
+
+msgid "IDS_BR_BODY_PASSWORD"
+msgstr "Pasahitza"
+
+msgid "IDS_BR_BODY_AUTHUSERNAME"
+msgstr "Erabiltzaile izena"
+
+msgid "IDS_BR_BODY_REMEMBER_PREFERENCE"
+msgstr "Gogoratu hobespenak"
+
+msgid "IDS_ST_POP_CLEAR_DEFAULT_APP_SETTINGS_BY_GOING_TO_SETTINGS_GENERAL_MANAGE_APPLICATIONS_ALL"
+msgstr "Garbitu lehenetsitako aplikazio ezarpenak Ezarpenak > Orokorra > Kudeatu aplikazioak > Denak aukerara joanda"
+
+msgid "IDS_BR_BODY_LOADING_ING"
+msgstr "Kargatzen..."
+
+msgid "IDS_KA_BODY_DENY"
+msgstr "Ukatu"
+
+msgid "IDS_JAVA_POP_ALLOW_TO_USE_MEDIA_RECORDING_Q"
+msgstr "Media grabaketa erabiltzea onartu?"
+

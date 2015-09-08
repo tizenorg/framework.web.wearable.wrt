@@ -1,0 +1,63 @@
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_USE_YOUR_CAMERA"
+msgstr "%1$s (%2$s) आपके कैमरा उपयोग करने की अनुमति का अनुरोध कर रहा है"
+
+msgid "IDS_BR_SK_OK"
+msgstr "ओके"
+
+msgid "IDS_BR_SK_YES"
+msgstr "हाँ"
+
+msgid "IDS_BR_SK_NO"
+msgstr "नहीं"
+
+msgid "IDS_BR_BODY_LOGIN"
+msgstr "लॉगिन"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "रद्द"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "अनुमति दें"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_SHOW_NOTIFICATIONS"
+msgstr "%1$s (%2$s) अधिसूचना दिखाने की अनुमति का अनुरोध कर रहा है"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_LOCATION"
+msgstr "%1$s (%2$s) आपके स्थान को ऐक्सेस करने की अनुमति का अनुरोध कर रहा है"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_ATTEMPTING_TO_STORE_A_LARGE_AMOUNT_OF_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) आपके डिवाइस पर ऑफ़लाइन उपयोग करने के लिए बड़ी मात्रा में डाटा स्टोर करने का प्रयास कर रहा है"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_STORE_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) आपके डिवाइस पर ऑफ़लाइन उपयोग करने के लिए डाटा स्टोर करने हेतु अनुरोध कर रहा है"
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "डाउनलोड शुरू कर रहे है..."
+
+msgid "IDS_BR_BODY_SECURITY_CERTIFICATE_PROBLEM_MSG"
+msgstr "इस साइट के सुरक्षा प्रमाणपत्र के साथ समस्‍याएँ है"
+
+msgid "IDS_BR_BODY_DESTINATIONS_AUTHENTICATION_REQUIRED"
+msgstr "प्रमाणीकरण आवश्यक है"
+
+msgid "IDS_BR_BODY_PASSWORD"
+msgstr "पासवर्ड"
+
+msgid "IDS_BR_BODY_AUTHUSERNAME"
+msgstr "उपभोक्ता नाम"
+
+msgid "IDS_BR_BODY_REMEMBER_PREFERENCE"
+msgstr "प्राथमिकता याद रखें"
+
+msgid "IDS_ST_POP_CLEAR_DEFAULT_APP_SETTINGS_BY_GOING_TO_SETTINGS_GENERAL_MANAGE_APPLICATIONS_ALL"
+msgstr "सेटिंग्स > सामान्य > ऐप्लिकेशंस प्रबंधित करें > सभी पर जाकर डिफ़ॉल्ट ऐप सेटिंग्स साफ करें"
+
+msgid "IDS_BR_BODY_LOADING_ING"
+msgstr "लोड हो रहा है..."
+
+msgid "IDS_KA_BODY_DENY"
+msgstr "अस्वीकृत करें"
+
+msgid "IDS_JAVA_POP_ALLOW_TO_USE_MEDIA_RECORDING_Q"
+msgstr "मीडिया रिकॉर्डिंग उपयोग की अनुमति दें?"
+

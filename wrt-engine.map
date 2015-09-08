@@ -1,0 +1,21 @@
+{
+    global: wrt_*;
+            plugin_api_*;
+            extern "C++" {
+                Popup::PopupRenderer::*PopupRenderer*;
+                Popup::PopupRenderer::Initialize*;
+                Popup::PopupRenderer::Deinitialize*;
+
+                Popup::PopupManager::*PopupManager*;
+                Popup::PopupManager::Initialize*;
+                Popup::PopupManager::Deinitialize*;
+                Popup::PopupManager::CreatePopup*;
+                Popup::PopupRenderer::PopupRenderer*;
+                Popup::PopupRenderer::*PopupRenderer*;
+                Popup::PopupRenderer::Initialize*;
+                Popup::PopupRenderer::Deinitialize*;
+            };
+            main;
+    local: *;
+};
+

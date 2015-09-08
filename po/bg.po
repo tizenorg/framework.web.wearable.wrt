@@ -1,0 +1,63 @@
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_USE_YOUR_CAMERA"
+msgstr "%1$s (%2$s) иска разрешение за използване на вашата камера."
+
+msgid "IDS_BR_SK_OK"
+msgstr "OK"
+
+msgid "IDS_BR_SK_YES"
+msgstr "Да"
+
+msgid "IDS_BR_SK_NO"
+msgstr "Не"
+
+msgid "IDS_BR_BODY_LOGIN"
+msgstr "Вход"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "Отмени"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "Разрешаване"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_SHOW_NOTIFICATIONS"
+msgstr "%1$s (%2$s) иска разрешение за показване на известия."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_LOCATION"
+msgstr "%1$s (%2$s) иска разрешение за достъп до вашето местоположение."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_ATTEMPTING_TO_STORE_A_LARGE_AMOUNT_OF_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) се опитва да съхранява голямо количество данни на вашето устройство за използване офлайн."
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_STORE_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) иска разрешение за съхраняване на данни на вашето устройство за използване офлайн."
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "Начало на изтеглянето..."
+
+msgid "IDS_BR_BODY_SECURITY_CERTIFICATE_PROBLEM_MSG"
+msgstr "Има проблеми със сертификата за защита за този сайт."
+
+msgid "IDS_BR_BODY_DESTINATIONS_AUTHENTICATION_REQUIRED"
+msgstr "Изисква се удостоверяване."
+
+msgid "IDS_BR_BODY_PASSWORD"
+msgstr "Парола"
+
+msgid "IDS_BR_BODY_AUTHUSERNAME"
+msgstr "Потребителско име"
+
+msgid "IDS_BR_BODY_REMEMBER_PREFERENCE"
+msgstr "Запомни предпочитанията"
+
+msgid "IDS_ST_POP_CLEAR_DEFAULT_APP_SETTINGS_BY_GOING_TO_SETTINGS_GENERAL_MANAGE_APPLICATIONS_ALL"
+msgstr "Изчистете настройките за приложение по подразбиране, като отидете в Настройки > Общи > Управление на приложения > Всички."
+
+msgid "IDS_BR_BODY_LOADING_ING"
+msgstr "Зареждане"
+
+msgid "IDS_KA_BODY_DENY"
+msgstr "Отхвърли"
+
+msgid "IDS_JAVA_POP_ALLOW_TO_USE_MEDIA_RECORDING_Q"
+msgstr "Позволяване на запис на медии?"
+

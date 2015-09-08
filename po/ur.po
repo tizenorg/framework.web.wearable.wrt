@@ -1,0 +1,63 @@
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_USE_YOUR_CAMERA"
+msgstr "%1$s (%2$s) آپ کا کیمرہ استعمال کرنے کی اجازت کی درخواست کررہا ہے"
+
+msgid "IDS_BR_SK_OK"
+msgstr "ٹھیک ہے"
+
+msgid "IDS_BR_SK_YES"
+msgstr "ہاں"
+
+msgid "IDS_BR_SK_NO"
+msgstr "نہیں"
+
+msgid "IDS_BR_BODY_LOGIN"
+msgstr "لاگ ان"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "منسوخ"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "اجازت دیں"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_SHOW_NOTIFICATIONS"
+msgstr "%1$s (%2$s) اعلانات دکھانے کی اجازت کی درخواست کررہا ہے"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_LOCATION"
+msgstr "%1$s (%2$s) آپ کے محل وقوع پر رسائی کرنے کی اجازت کی درخواست کررہا ہے"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_ATTEMPTING_TO_STORE_A_LARGE_AMOUNT_OF_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) آف لائن استعمال کے لئے آپ کے آلہ پر ڈیٹا کی ایک بڑی مقدار ذخیرہ کرنے کی کوشش کررہا ہے"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_STORE_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) آف لائن استعمال کے لئے آپ کے آلہ پر ڈیٹا ذخیرہ کرنے کی اجازت کی درخواست کررہا ہے"
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "ڈاؤن لوڈ شروع کررہا ہے..."
+
+msgid "IDS_BR_BODY_SECURITY_CERTIFICATE_PROBLEM_MSG"
+msgstr "اس سائٹ کے لئے سلامتی کی سند میں مسائل ہیں"
+
+msgid "IDS_BR_BODY_DESTINATIONS_AUTHENTICATION_REQUIRED"
+msgstr "اتھینٹیکیشن ضروری۔"
+
+msgid "IDS_BR_BODY_PASSWORD"
+msgstr "پاس ورڈ"
+
+msgid "IDS_BR_BODY_AUTHUSERNAME"
+msgstr "استمعال کنندہ کا نام"
+
+msgid "IDS_BR_BODY_REMEMBER_PREFERENCE"
+msgstr "ترجیح یاد رکھیں"
+
+msgid "IDS_ST_POP_CLEAR_DEFAULT_APP_SETTINGS_BY_GOING_TO_SETTINGS_GENERAL_MANAGE_APPLICATIONS_ALL"
+msgstr "طے شدہ ایپلیکیشن سیٹنگز کو یہاں جا کر صاف کریں سیٹنگز > عمومی > ایپلیکیشنز بندوبست کریں > تمام"
+
+msgid "IDS_BR_BODY_LOADING_ING"
+msgstr "لوڈنگ..."
+
+msgid "IDS_KA_BODY_DENY"
+msgstr "انکار کریں"
+
+msgid "IDS_JAVA_POP_ALLOW_TO_USE_MEDIA_RECORDING_Q"
+msgstr "میڈیا ریکارڈنگ استعمال کرنے کی اجازت دیں؟"
+

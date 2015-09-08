@@ -1,0 +1,63 @@
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_USE_YOUR_CAMERA"
+msgstr "%1$s (%2$s) আপনার ক্যামেরা ব্যবহারের জন্য অনুমতি অনুরোধ করছে।"
+
+msgid "IDS_BR_SK_OK"
+msgstr "ওকে"
+
+msgid "IDS_BR_SK_YES"
+msgstr "হ্যাঁ"
+
+msgid "IDS_BR_SK_NO"
+msgstr "না"
+
+msgid "IDS_BR_BODY_LOGIN"
+msgstr "লগইন"
+
+msgid "IDS_BR_SK_CANCEL"
+msgstr "বাতিল"
+
+msgid "IDS_BR_OPT_ALLOW"
+msgstr "অনুমতি"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_SHOW_NOTIFICATIONS"
+msgstr "%1$s (%2$s) বিজ্ঞপ্তি দেখানোর জন্য অনুমতি অনুরোধ করছে।"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_ACCESS_YOUR_LOCATION"
+msgstr "%1$s (%2$s) আপনার অবস্থান অ্যাক্সেসের জন্য অনুমতি অনুরোধ করছে।"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_ATTEMPTING_TO_STORE_A_LARGE_AMOUNT_OF_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) অফলাইনে ব্যবহারের জন্য আপনার ডিভাইসে বড় পরিমাণ তথ্য সঞ্চয় করার প্রয়াস করছে।"
+
+msgid "IDS_BR_POP_P1SS_HP2SS_IS_REQUESTING_PERMISSION_TO_STORE_DATA_ON_YOUR_DEVICE_FOR_OFFLINE_USE"
+msgstr "%1$s (%2$s) অফলাইন ব্যবহারের জন্য আপনার ডিভাইসে তথ্য সঞ্চয় করার অনুমতি অনুরোধ করছে।"
+
+msgid "IDS_BR_POP_STARTING_DOWNLOAD_ING"
+msgstr "ডাউনলোড আরম্ভ হচ্ছে..."
+
+msgid "IDS_BR_BODY_SECURITY_CERTIFICATE_PROBLEM_MSG"
+msgstr "এই সাইটের সুরক্ষা শংসাপত্র-এ কিছু সমস্যা আছে।"
+
+msgid "IDS_BR_BODY_DESTINATIONS_AUTHENTICATION_REQUIRED"
+msgstr "প্রামাণিকরণ দরকার।"
+
+msgid "IDS_BR_BODY_PASSWORD"
+msgstr "পাসওয়ার্ড"
+
+msgid "IDS_BR_BODY_AUTHUSERNAME"
+msgstr "ব্যবহারকারীর নাম"
+
+msgid "IDS_BR_BODY_REMEMBER_PREFERENCE"
+msgstr "অগ্রাধিকার মনে রাখা।"
+
+msgid "IDS_ST_POP_CLEAR_DEFAULT_APP_SETTINGS_BY_GOING_TO_SETTINGS_GENERAL_MANAGE_APPLICATIONS_ALL"
+msgstr "এখানে গিয়ে ডিফল্ট অ্যাপ সেটিংস পরিষ্কার করুন সেটিংস > সাধারণ > অ্যাপ্লিকেশনগুলি পরিচালনা করুন > সমস্ত।"
+
+msgid "IDS_BR_BODY_LOADING_ING"
+msgstr "লোড হচ্ছে..."
+
+msgid "IDS_KA_BODY_DENY"
+msgstr "অস্বীকার"
+
+msgid "IDS_JAVA_POP_ALLOW_TO_USE_MEDIA_RECORDING_Q"
+msgstr "মিডিয়া রেকর্ডিং ব্যবহার করার অনুমতি দেওয়া হবে কি ?"
+
