@@ -39,6 +39,7 @@ const char * const SET_VIEWMODES_MSGBODY_EXIT = "exit";
 namespace ToUIProcess {
 const char * const BLOCKED_URL = "ToUIProcess::BLOCKED_URL";
 const char * const SEND_WEBPROCESS_PID = "ToUIProcess::SEND_WEBPROCESS_PID";
+const char * const BACKGROUND_SUPPORTED = "ToUIProcess::BACKGROUND_SUPPORTED";
 } // namespace ToUIProcess
 
 namespace TizenScheme {

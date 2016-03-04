@@ -613,6 +613,12 @@ void ViewLogic::checkSyncMessageFromBundle(
                 LogDebug("X window isn't exist");
             }
         }
+    } else if (!strcmp(name, Message::ToUIProcess::BACKGROUND_SUPPORTED)) {
+        if (m_isBackgroundSupport) {
+            *returnData = strdup("true");
+        } else {
+            *returnData = strdup("false");
+        }
     }
 }
 
