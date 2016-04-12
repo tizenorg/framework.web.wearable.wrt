@@ -48,6 +48,7 @@ char const * const SCHEME_TYPE_FILE = "file";
 char const * const SCHEME_TYPE_WIDGET = "widget";
 char const * const SCHEME_TYPE_APP = "app";
 char const * const SCHEME_TYPE_HTTP = "http";
+char const * const SCHEME_TYPE_DATA = "data";
 char const * const PARAM_URL = "param:url";
 char const * const ACE_IGNORED_SCHEMA[] = {
     "file://",
@@ -120,15 +121,14 @@ bool checkWhitelist(const char *url)
     if (url == NULL) {
         return true;
     }
-
     std::unique_ptr<iri_t, decltype(&iri_destroy)> iri(iri_parse(url), iri_destroy);
     if (!iri->scheme || !iri->host || strlen(iri->host) == 0) {
         return true;
     }
     std::string scheme = iri->scheme;
-    std::string host = iri->host;
 
-    if (scheme.find(SCHEME_TYPE_HTTP) == std::string::npos) {
+    if (scheme.find(SCHEME_TYPE_HTTP) == std::string::npos &&
+        scheme.find(SCHEME_TYPE_DATA) == std::string::npos) {
         return true;
     }
 

@@ -21,6 +21,7 @@
 #include "wrt-injected-bundle.h"
 
 #include <WKBundle.h>
+#include <WKBundleDOMWindowExtension.h>
 #include <WKBundleInitialize.h>
 #include <WKBundlePage.h>
 #include <WKBundleFrame.h>
@@ -169,11 +170,8 @@ void Bundle::didCreatePage(WKBundlePageRef page)
         exit(-1);
     }
 
-    auto mainFrame = WKBundlePageGetMainFrame(page);
-    auto context = WKBundleFrameGetJavaScriptContext(mainFrame);
     m_pagesList.push_back(page);
-    m_pageGlobalContext.insertContextForPage(page, context);
-    _D("created Page : %p created JSContext : %p", page, context);
+    _D("created Page : %p", page);
     m_viewmodesSupport->initialize(page);
 
     WKBundlePageResourceLoadClient resourceLoadClient = {
@@ -193,10 +191,10 @@ void Bundle::didCreatePage(WKBundlePageRef page)
     WKBundlePageLoaderClient loaderClient = {
         kWKBundlePageLoaderClientCurrentVersion,
         this, /* clientinfo */
-        didStartProvisionalLoadForFrameCallback, /* didStartProvisionalLoadForFrame */
+        0, /* didStartProvisionalLoadForFrame */
         0, /* didReceiveServerRedirectForProvisionalLoadForFrame */
         0, /* didFailProvisionalLoadWithErrorForFrame */
-        didCommitLoadForFrameCallback, /* didCommitLoadForFrame */
+        0, /* didCommitLoadForFrame */
         0, /* didFinishDocumentLoadForFrame */
         0, /* didFinishLoadForFrame */
         0, /* didFailLoadWithErrorForFrame */
@@ -204,7 +202,7 @@ void Bundle::didCreatePage(WKBundlePageRef page)
         0, /* didReceiveTitleForFrame */
         0, /* didFirstLayoutForFrame */
         0, /* didFirstVisuallyNonEmptyLayoutForFrame */
-        didRemoveFrameFromHierarchyCallback, /* didRemoveFrameFromHierarchy */
+        0, /* didRemoveFrameFromHierarchy */
         0, /* didDisplayInsecureContentForFrame */
         0, /* didRunInsecureContentForFrame */
         0, /* didClearWindowObjectForFrame */
@@ -215,10 +213,10 @@ void Bundle::didCreatePage(WKBundlePageRef page)
         0, /* didNewFirstVisuallyNonEmptyLayout */
         0, /* didDetectXSSForFrame */
         0, /* shouldGoToBackForwardListItem */
-        0, /* globalObjectIsAvailableForFrame */
-        0, /* willDisconnectDOMWindowExtensionFromGlobalObject */
-        0, /* didReconnectDOMWindowExtensionToGlobalObject */
-        0, /* willDestroyGlobalObjectForDOMWindowExtension */
+        globalObjectIsAvailableForFrameCallback, /* globalObjectIsAvailableForFrame */
+        willDisconnectDOMWindowExtensionFromGlobalObjectCallback, /* willDisconnectDOMWindowExtensionFromGlobalObject */
+        didReconnectDOMWindowExtensionToGlobalObjectCallback, /* didReconnectDOMWindowExtensionToGlobalObject */
+        willDestroyGlobalObjectForDOMWindowExtensionCallback, /* willDestroyGlobalObjectForDOMWindowExtension */
         0, /* didFinishProgress */
         0, /* shouldForceUniversalAccessFromLocalURL */
         0, /* didReceiveIntentForFrame */
@@ -247,14 +245,9 @@ void Bundle::willDestroyPage(WKBundlePageRef page)
 {
     _D("Destroyed page : %p", page);
 
-    auto context = m_pageGlobalContext.getContextForPage(page);
     m_pagesList.remove(page);
-    m_pageGlobalContext.removeContextForPage(page);
-    m_pageContext[page].erase(context);
     m_viewmodesSupport->deinitialize(page);
-
-    PluginModule::unloadFrame(context);
-    PluginModule::stop(context);
+    m_pageGlobalContext.removeContextForPage(page);
 }
 
 void Bundle::fixWKMessageArgs(std::string & argScale,
@@ -592,63 +585,6 @@ WKURLRequestRef Bundle::willSendRequestForFrameCallback(
     return ret;
 }
 
-void Bundle::didStartProvisionalLoadForFrameCallback(
-    WKBundlePageRef page,
-    WKBundleFrameRef frame,
-    WKTypeRef* /*userData*/,
-    const void *clientInfo)
-{
-    _D("called");
-    Bundle* This = static_cast<Bundle*>(const_cast<void*>(clientInfo));
-
-    if (This->m_pageGlobalContext.find(page) == This->m_pageGlobalContext.end()) {
-        return;
-    }
-    if (This->m_pageContext.count(page) == 0) {
-        return;
-    }
-
-    JSGlobalContextRef context = WKBundleFrameGetJavaScriptContext(frame);
-
-    ContextSet::iterator i = This->m_pageContext[page].find(context);
-
-    if (i == This->m_pageContext[page].end()) {
-        _D("Initially attached frame");
-        return;
-    }
-
-    This->m_pageContext[page].erase(i);
-    This->m_willRemoveContext = context;
-}
-
-void Bundle::didRemoveFrameFromHierarchyCallback(
-    WKBundlePageRef page,
-    WKBundleFrameRef frame,
-    WKTypeRef* /*userData*/,
-    const void *clientInfo)
-{
-    _D("called");
-    Bundle* This = static_cast<Bundle*>(const_cast<void*>(clientInfo));
-
-    if (This->m_pageContext.count(page) == 0) {
-        _D("his->m_pageContext.count(page) == 0");
-        return;
-    }
-
-    JSGlobalContextRef context = WKBundleFrameGetJavaScriptContext(frame);
-
-    ContextSet::iterator i = This->m_pageContext[page].find(context);
-
-    if (i == This->m_pageContext[page].end()) {
-        _W("Tried to unload frame which has never been loaded");
-        return;
-    }
-
-    This->m_pageContext[page].erase(i);
-
-    PluginModule::unloadFrame(context);
-}
-
 void Bundle::didFinishLoadForResourceCallback(
     WKBundlePageRef /*page*/,
     WKBundleFrameRef /*frame*/,
@@ -658,60 +594,97 @@ void Bundle::didFinishLoadForResourceCallback(
     _D("called");
 }
 
-void Bundle::didCommitLoadForFrameCallback(
+void Bundle::globalObjectIsAvailableForFrameCallback(
     WKBundlePageRef page,
     WKBundleFrameRef frame,
-    WKTypeRef* /*userData*/,
-    const void *clientInfo)
+    WKBundleScriptWorldRef script,
+    const void* clientInfo)
 {
-    _D("called");
-    LOG_PROFILE_START("didCommitLoadForFrameCallback");
+    _W("globalObjectIsAvailableForFrameCallback called");
+
+    Assert(clientInfo);
+
+    DPL_UNUSED_PARAM(script);
+
     Bundle* This = static_cast<Bundle*>(const_cast<void*>(clientInfo));
 
     WKURLRef url = WKBundleFrameCopyURL(frame);
-
     if (url == NULL) {
         _W("url is NULL");
         return;
     }
 
-    if (This->m_willRemoveContext) {
-        PluginModule::unloadFrame(This->m_willRemoveContext);
-        This->m_willRemoveContext = NULL;
-    }
-
-    JSGlobalContextRef context = WKBundleFrameGetJavaScriptContext(frame);
-
-    This->m_pageContext[page].insert(context);
     std::string urlStr = toString(url);
 
-    if (WKBundleFrameIsMainFrame(frame)) {
-        _D("frame main frame");
-        if(This->m_pageGlobalContext.find(page) != This->m_pageGlobalContext.end())
-        {
-            _D("Previous context: %p", This->m_pageGlobalContext.getContextForPage(page));
-            PluginModule::stop(This->m_pageGlobalContext.getContextForPage(page));
-        }
-        _D("New context: %p", context);
-        //note that since we need old context for unloading plugins it must be sotred
-        //custom container take care of increamenting and decrementing references
-        This->m_pageGlobalContext.insertContextForPage(page, context);
-    }
-
-    if (InjectedBundleURIHandling::processURIForPlugin(urlStr.c_str())){
+    if (InjectedBundleURIHandling::processURIForPlugin(urlStr.c_str())) {
         _D("start plugin");
-        LOG_PROFILE_START("PluginModule start");
+        WKBundleDOMWindowExtensionCreate(frame, script);
+
+        JSGlobalContextRef context = WKBundleFrameGetJavaScriptContext(frame);
+        _E("##### Load : %p", context);
+        if (WKBundleFrameIsMainFrame(frame)) {
+            This->m_pageGlobalContext.insertContextForPage(page, context);
+        }
+
         PluginModule::start(
             WrtDB::WidgetDAOReadOnly::getHandle(This->m_widgetTizenId),
             context,
             This->m_scale,
             This->m_encodedBundle.c_str(),
             This->m_theme.c_str() );
-        LOG_PROFILE_STOP("PluginModule start");
-
         PluginModule::loadFrame(context);
-        LOG_PROFILE_STOP("didCommitLoadForFrameCallback");
     }
+    _E("#### JavaScriptObjectsCount = [%u]", WKBundleGetJavaScriptObjectsCount(This->m_bundle));
+}
+
+void Bundle::willDisconnectDOMWindowExtensionFromGlobalObjectCallback(
+    WKBundlePageRef page,
+    WKBundleDOMWindowExtensionRef extension,
+    const void* clientInfo)
+{
+    DPL_UNUSED_PARAM(page);
+    DPL_UNUSED_PARAM(extension);
+    DPL_UNUSED_PARAM(clientInfo);
+
+    _W("willDestroyGlobalObjectForDOMWindowExtensionCallback called");
+}
+
+void Bundle::didReconnectDOMWindowExtensionToGlobalObjectCallback(
+    WKBundlePageRef page,
+    WKBundleDOMWindowExtensionRef extension,
+    const void* clientInfo)
+{
+    DPL_UNUSED_PARAM(page);
+    DPL_UNUSED_PARAM(extension);
+    DPL_UNUSED_PARAM(clientInfo);
+
+    _W("willDestroyGlobalObjectForDOMWindowExtensionCallback called");
+}
+
+void Bundle::willDestroyGlobalObjectForDOMWindowExtensionCallback(
+    WKBundlePageRef page,
+    WKBundleDOMWindowExtensionRef extension,
+    const void* clientInfo)
+{
+    _W("willDestroyGlobalObjectForDOMWindowExtensionCallback called");
+
+    Assert(clientInfo);
+
+    Bundle* This = static_cast<Bundle*>(const_cast<void*>(clientInfo));
+
+    WKBundleFrameRef frame = WKBundleDOMWindowExtensionGetFrame(extension);
+    JSGlobalContextRef context = WKBundleFrameGetJavaScriptContext(WKBundleDOMWindowExtensionGetFrame(extension));
+    _E("##### Unload : %p", context);
+
+    if (WKBundleFrameIsMainFrame(frame)) {
+        This->m_pageGlobalContext.removeContextForPage(page);
+    }
+
+    PluginModule::unloadFrame(context);
+    PluginModule::stop(context);
+
+    WKRelease(extension);
+    _E("#### JavaScriptObjectsCount = [%u]", WKBundleGetJavaScriptObjectsCount(This->m_bundle));
 }
 
 WKBundlePagePolicyAction Bundle::decidePolicyForNavigationActionCallback(

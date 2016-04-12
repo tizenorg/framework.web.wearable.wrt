@@ -73,9 +73,6 @@ class Bundle
 
     typedef std::list<WKBundlePageRef> PagesList;
     PagesList m_pagesList;
-    typedef std::set<JSGlobalContextRef> ContextSet;
-    typedef std::map<WKBundlePageRef, ContextSet> PageContextList;
-    PageContextList m_pageContext;
     PageGlobalContextContainer m_pageGlobalContext;
     DPL::String m_widgetTizenId;
     double m_scale;
@@ -103,26 +100,30 @@ class Bundle
         uint64_t resourceIdentifier,
         const void* clientInfo);
 
-    // WKBundlePageDidStartProvisionalLoadForFrame callback
-    static void didStartProvisionalLoadForFrameCallback(
+    //WKBundlePageGlobalObjectIsAvailableForFrameCallback callback
+    static void globalObjectIsAvailableForFrameCallback(
         WKBundlePageRef page,
         WKBundleFrameRef frame,
-        WKTypeRef* userData,
-        const void *clientInfo);
+        WKBundleScriptWorldRef script,
+        const void* clientInfo);
 
-    // WKBundlePageDidRemoveFrameFromHierarchy callback
-    static void didRemoveFrameFromHierarchyCallback(
+    //WKBundlePageWillDisconnectDOMWindowExtensionFromGlobalObjectCallback callback
+    static void willDisconnectDOMWindowExtensionFromGlobalObjectCallback(
         WKBundlePageRef page,
-        WKBundleFrameRef frame,
-        WKTypeRef* userData,
-        const void *clientInfo);
+        WKBundleDOMWindowExtensionRef extension,
+        const void* clientInfo);
 
-    // WKBundlePageLoaderClient callback
-    static void didCommitLoadForFrameCallback(
+    //WKBundlePageDidReconnectDOMWindowExtensionToGlobalObjectCallback callback
+    static void didReconnectDOMWindowExtensionToGlobalObjectCallback(
         WKBundlePageRef page,
-        WKBundleFrameRef frame,
-        WKTypeRef*,
-        const void *clientInfo);
+        WKBundleDOMWindowExtensionRef extension,
+        const void* clientInfo);
+
+    //WKBundlePageWillDestroyGlobalObjectForDOMWindowExtensionCallback callback
+    static void willDestroyGlobalObjectForDOMWindowExtensionCallback(
+        WKBundlePageRef page,
+        WKBundleDOMWindowExtensionRef extension,
+        const void* clientInfo);
 
     // WKBundlePageDecidePolicyForNavigationActionCallback
     static WKBundlePagePolicyAction decidePolicyForNavigationActionCallback(

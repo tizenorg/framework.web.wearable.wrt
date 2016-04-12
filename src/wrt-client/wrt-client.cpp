@@ -97,6 +97,7 @@ const char* const HOME = "HOME";
 const char* const APP_HOME_PATH = "/opt/home/app";
 const char* const ROOT_HOME_PATH = "/opt/home/root";
 const char* const WRT_CONSOLE_LOG_ENABLE = "WRT_CONSOLE_LOG_ENABLE";
+const char* const FILE_SCHEME = "file://";
 
 const char* CATEGORY_IDLE_CLOCK = "com.samsung.wmanager.WATCH_CLOCK";
 const char* CATEGORY_WEARABLE_CLOCK = "http://tizen.org/category/wearable_clock";
@@ -1084,6 +1085,16 @@ void WrtClient::keyCallback(Evas_Object* obj, void* eventInfo)
             }
         } else if (keyType == EA_CALLBACK_MORE) {
             // UX isn't confirmed
+        }
+    } else {
+        if (keyType == EA_CALLBACK_BACK) {
+            std::string url = ewk_view_url_get(obj);
+            std::string fileScheme = FILE_SCHEME;
+            if (url.length() > fileScheme.length() &&
+                !(std::equal(fileScheme.begin(), fileScheme.end(), url.begin()))) {
+                _W("Back to previous page");
+                m_widget->Backward();
+            }
         }
     }
 }

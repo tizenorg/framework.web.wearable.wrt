@@ -51,8 +51,8 @@ void PageGlobalContextContainer::removeContextForPage(WKBundlePageRef page)
     if(iter != m_map.end())
     {
         JSGlobalContextRelease(m_map[page]);
+        m_map.erase(iter);
     }
-    m_map.erase(iter);
 }
 
 JSGlobalContextRef PageGlobalContextContainer::getContextForPage(WKBundlePageRef page) const
